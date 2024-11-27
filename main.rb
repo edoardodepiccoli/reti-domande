@@ -29,14 +29,14 @@ sections.each do |section|
   system('clear')
   puts "writing to file #{percentage_completed(total_sections, completed_sections)}%"
 
-  instructions = "Per questa sezione di un documento latex di un libro di reti di calcolatori, scrivi 4 flashcards formattandole così in formato csv e separando il fronte dal retro usando un |. Crea 4 flashcards: una per la descrizione (se presente), una per i pregi (se presenti), una per i difetti (se presenti) e una per gli ambiti di utilizzo (se presenti). Formatta il fronte delle flashcards così: Nome argomento - descrizione, Nome argomento - pregi, ecc ecc. Scrivi solo le righe una dopo l'altra come se stessi scrivendo su un foglio csv e non riassumere, semplicemente copia e incolla. Se incontri testo formattato in modo particolare convertilo in plain text"
+  instructions = "Scrivi delle flashcards per aiutarmi a imparare ogni dettaglio su questo testo. Le flashcards devono essere chiare e non ambigue. Puoi creare quante flashcards credi sia necessario per farmi imparare ogni dettaglio di questo argomento, l'importante è che la copertura delle flashcards sia del 100% dell'argomento, in modo che chi le usa per studiare impari tutto. Scrivi le flashcards in formato csv separando il fronte e il retro con un carattere |. Scrivi solamente fronte e retro di ogni flashcards. Ecco il testo:"
   full_prompt = "#{instructions} + \n + #{section}"
 
   response = client.chat(
     parameters: {
       model: 'gpt-4o',
       messages: [{ role: 'user', content: full_prompt }],
-      temperature: 0.7
+      temperature: 0.5
     }
   )
   csv_rows = response.dig('choices', 0, 'message', 'content')
