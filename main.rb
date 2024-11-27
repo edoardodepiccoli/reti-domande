@@ -44,3 +44,7 @@ sections.each do |section|
   csv_file.puts(csv_rows)
   completed_sections += 1
 end
+
+csv_file_count = File.new('./flashcards.csv')
+new_lines = csv_file_count.read.count("\n")
+puts "created flashcards for #{completed_sections} topics for a total of #{new_lines} flashcards"
