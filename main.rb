@@ -24,19 +24,19 @@ def percentage_completed(total, completed)
 end
 
 sections.each do |section|
-  next if section.length < 100
+  next if section.length < 50
 
   system('clear')
   puts "writing to file #{percentage_completed(total_sections, completed_sections)}%"
 
-  instructions = "Scrivi delle flashcards per aiutarmi a imparare ogni dettaglio su questo testo. Le flashcards devono essere chiare e non ambigue. Puoi creare quante flashcards credi sia necessario per farmi imparare ogni dettaglio di questo argomento, l'importante è che la copertura delle flashcards sia del 100% dell'argomento, in modo che chi le usa per studiare impari tutto. Scrivi le flashcards in formato csv separando il fronte e il retro con un carattere |. Scrivi solamente fronte e retro di ogni flashcards. Ecco il testo:"
+  instructions = "Aiutami a scrivere delle flashcards. Scrivile in formato csv usando un carattere pipeline | per separare il fronte dal retro. Nel fronte ci deve essere una domanda chiara e non ambigua e nel retro ci deve essere la risposta. La tua risposta deve essere composta da solo le flashcards richieste, non specificare il linguaggio usando ```. Non specificare il formato delle flashcards prima di scriverle, per esempio scrivendo 'Domanda|Risposta' e non scrivere nient'altro oltre alle flashcards richieste. Scrivi le flashcards in linee consecutive senza lasciare una linea vuota in mezzo. Per ogni argomento o tecnologia devo imparare molto bene che cos'è e in che contesto viene usata, quali sono i suoi ambiti di utilizzo principali, quai sono i suoi pregi e quali sono i suoi difetti:\n\n"
   full_prompt = "#{instructions} + \n + #{section}"
 
   response = client.chat(
     parameters: {
-      model: 'gpt-4o',
+      model: 'gpt-4o-mini',
       messages: [{ role: 'user', content: full_prompt }],
-      temperature: 0.5
+      temperature: 1
     }
   )
   csv_rows = response.dig('choices', 0, 'message', 'content')

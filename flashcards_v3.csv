@@ -1,0 +1,728 @@
+Cosa si intende per serie di Fourier?|La serie di Fourier è la scomposizione di un segnale in componenti sinusoidali, permettendo un'analisi più efficace.  
+Cosa rappresenta f nella formula della serie di Fourier?|f=1/T rappresenta la frequenza fondamentale.  
+Cosa genera la distorsione nei segnali trasmessi?|La distorsione è causata dal fatto che i mezzi di trasmissione attenuano in modo non uniforme i componenti della serie di Fourier.  
+Cosa significa "banda passante" in relazione alla serie di Fourier?|La banda passante è l'intervallo di frequenze trasmesse senza forte attenuazione, solitamente compresa tra 0 e la frequenza dove la potenza è attenuata del 50%.  
+Qual è un pregio principale della serie di Fourier?|Un pregio è che permette uno studio più preciso del segnale scomponendolo in più componenti.  
+In quali ambiti viene utilizzata la serie di Fourier?|Viene usata nelle comunicazioni per la trasmissione dei dati e per migliorare la comprensione delle onde.  
+Qual è il problema principale che si cerca di risolvere con la modulazione nei segnali?|La modulazione serve a ovviare ai problemi dovuti alle attenuazioni o distorsioni nei segnali trasmessi.
+Bitrate|Il bitrate è la quantità di informazioni digitali trasferite o registrate nell'unità di tempo, espressa in bit/s.  
+Baudrate|Il baudrate rappresenta il numero di simboli trasmessi in un secondo.  
+Qual è la differenza tra bitrate e baudrate?|Il bitrate misura la quantità di bit trasmessi, mentre il baudrate misura il numero di simboli trasmessi.  
+In cosa dipende il bitrate?|Il bitrate dipende dal tipo di mezzo trasmissivo utilizzato e dalle sue condizioni fisiche.  
+Come viene definita la velocità di trasmissione?|La velocità di trasmissione è anche detta banda.  
+Quali sono gli ambiti d'uso del bitrate e baudrate?|Vengono utilizzati nelle reti wireless e cablate.  
+Quali sono i pregi del bitrate e baudrate?|Permettono una rappresentazione quantitativa della velocità di trasmissione del mezzo.  
+Cosa rappresenta un simbolo nel contesto del baudrate?|Un simbolo può corrispondere a un numero variabile di bit, a seconda delle tecniche di modulazione utilizzate.
+Che cos'è il doppino? | Il doppino è un cavo composto da due conduttori di rame isolati, avvolti in forma elicoidale per annullare i campi elettromagnetici.
+Quali sono le principali varietà di doppini nelle telecomunicazioni? | Le principali varietà di doppini sono UTP3 e UTP5.
+Qual è la differenza tra UTP3 e UTP5? | La differenza sta nel numero di spire per centimetro: UTP3 ha meno spire per cm rispetto a UTP5, migliorando la qualità del segnale su lunghe distanze.
+Quali sono i pregi dei cavi a doppino? | Costano poco e hanno una discreta velocità trasmissiva.
+Quali sono i difetti dei cavi a doppino? | L'ampiezza di banda fornita non è tra le migliori e sono vulnerabili ai campi elettromagnetici.
+In quali ambiti si usano i cavi a doppino? | Sono prevalentemente utilizzati nel sistema telefonico.
+Che cos'è il cavo coassiale? | Il cavo coassiale è composto da un nucleo conduttore coperto da un rivestimento isolante, e da un conduttore cilindrico esterno con guaina protettiva.
+Quali sono i tipi di cavo coassiale disponibili? | Ci sono cavi da 50Ω per trasmissioni digitali e da 75Ω per trasmissioni analogiche.
+Quali sono i pregi del cavo coassiale? | Offre un isolamento quasi totale dai campi elettromagnetici.
+Quali sono i difetti del cavo coassiale? | Su lunghi tratti non è molto efficiente in termini di banda e viene spesso sostituito dalla fibra ottica.
+In quali ambiti si usa il cavo coassiale? | È molto utilizzato per le reti metropolitane e le televisioni via cavo.
+Che cos'è la fibra ottica? | La fibra ottica è un mezzo di trasmissione che usa segnali luminosi, composto da un nucleo di vetro, rivestimento di vetro e strato di plastica protettivo.
+Quali sono i due tipi di fibra ottica? | I due tipi di fibra ottica sono la monomodale e la multimodale.
+Qual è la differenza tra fibra ottica monomodale e multimodale? | La monomodale è usata per lunghe distanze e permette alla luce di propagarsi in linea retta, mentre la multimodale permette a più raggi di rimbalzare ad angoli diversi.Quali sono i tre tipi principali di satelliti? | GEO, MEO e LEO  
+Qual è la caratteristica principale dei satelliti GEO? | Sono geostazionari e mantengono una posizione fissa rispetto alla Terra.  
+Che tipo di satelliti si trovano tra la fascia di Van Allen inferiore e quella superiore? | Satelliti MEO (Medium Earth Orbit).  
+Qual è il periodo orbitale dei satelliti LEO? | I satelliti LEO hanno un periodo orbitale molto breve e si spostano rapidamente.  
+Quanto tempo impiega un satellite MEO a compiere un giro attorno alla Terra? | 6 ore.  
+Qual è un esempio di satelliti MEO? | I satelliti del servizio GPS.  
+Come funziona il sistema di satelliti Iridium? | Utilizza 66 satelliti che forniscono servizi di comunicazione a livello globale.  
+Qual è la differenza principale tra Iridium e Globalstar? | Globalstar riporta il segnale sulla Terra e non gestisce la comunicazione nello spazio.  
+Perché sono importanti i satelliti nel connettere aree inospitali? | Forniscono connessione dove le infrastrutture terrestri sono assenti o inadeguate.  
+Quali sono i vantaggi principali dei satelliti rispetto alla fibra ottica? | Facilità di utilizzo e capacità di servire aree remote.  
+Qual è uno svantaggio dei satelliti rispetto alla fibra ottica? | Le fibre ottiche offrono velocità di trasmissione superiori.  
+In quali ambiti i satelliti trovano applicazione? | Nelle comunicazioni mobile, nelle trasmissioni broadcast e in aree prive di infrastrutture.  
+Cosa sono i transponder nei satelliti di comunicazione? | Ricetrasmettitori che amplificano e ritrasmettono segnali elettromagnetici.  
+Qual è la capacità massima di satelliti GEO in orbita? | Circa 180 satelliti.  
+Qual è il principale fattore che determina la collocazione di un satellite? | Il periodo orbitale.
+Cos'è la modulazione di frequenza?|La modulazione di frequenza è una tecnica di trasmissione che varia la frequenza dell'onda portante per trasmettere informazioni.  
+Quali sono i vantaggi della modulazione di frequenza rispetto alla modulazione in ampiezza?|La modulazione di frequenza è meno sensibile ai disturbi e offre una trasmissione di miglior qualità.  
+Qual è l'efficienza energetica della modulazione di frequenza?|L'efficienza energetica è maggiore, poiché la potenza del segnale modulato FM è esclusivamente quella della portante.  
+Che problemi riduce la modulazione di frequenza?|Riduce i problemi di attenuazione e distorsione della linea.  
+Quali sono i difetti della modulazione di frequenza?|Necessita di circuiti complessi sia per la generazione che per la ricezione del segnale.  
+In quali ambiti viene utilizzata principalmente la modulazione di frequenza?|Viene utilizzata soprattutto in ambito di broadcasting commerciale.  
+Qual è l'intervallo di frequenze comunemente utilizzato per la modulazione di frequenza?|L'intervallo comune è compreso tra 1000 e 2000 Hz.  
+Perché la trasmissione in banda base è adatta solo a basse velocità e brevi distanze?|Perché subisce forte attenuazione e distorsione, rendendo difficile l'invio di informazioni.  
+Cosa è necessario per la modulazione della portante in FM?|È necessaria la variazione della frequenza dell'onda portante per trasmettere informazioni.  
+Perché la modulazione di frequenza è più utilizzata della modulazione in ampiezza nel broadcasting?|Per la sua maggiore resistenza ai disturbi e la migliore qualità di trasmissione.
+Cos'è la modulazione delta? | La modulazione delta è un metodo di digitalizzazione e compressione di un segnale analogico, utilizzato nel campo della digitalizzazione dei segnali telefonici.  
+Qual è il principio alla base della modulazione delta? | Si basa sulla differenza di valore tra il valore precedente e quello successivo, rappresentata da 1 bit.  
+Come vengono rappresentati i cambiamenti nel segnale nella modulazione delta? | Se il segnale successivo è più alto di quello precedente, viene rappresentato da 1; altrimenti, da 0.  
+Qual è un vantaggio della modulazione delta? | Permette di comprimere e digitalizzare il segnale analogico, gravando meno sulle linee e consentendo comunicazioni più veloci.  
+Qual è un difetto della modulazione delta? | Se il segnale cambia troppo velocemente, si può avere una perdita di dati.  
+In quali ambiti viene utilizzata la modulazione delta? | Viene utilizzata nelle comunicazioni satellitari e nelle comunicazioni voce.  
+In che modo la modulazione delta differisce dalla differential pulse code modulation? | La modulazione delta rappresenta le variazioni del segnale con 1 bit, mentre la differential pulse code modulation utilizza una scala di +-16 espressa tramite 5 bit.  
+Perché la modulazione delta è efficace per i segnali telefonici? | Perché il segnale cambia relativamente lentamente rispetto alla frequenza di campionamento, rendendo gran parte dell'informazione ridondante.
+Cos'è il GSM? | Il GSM (Global System for Mobile connection) è un sistema di telefonia mobile di seconda generazione che utilizza la voce digitale.  
+Quali sono le quattro tipologie di celle nella struttura del GSM? | Le celle macro, micro, pico e umbrella.  
+Qual è il raggio massimo delle celle macro nel GSM? | La cella macro ha un raggio massimo di 35 km.  
+Qual è la principale differenza tra celle micro e pico? | Le celle micro coprono un'altezza pari agli edifici, mentre le celle pico sono molto piccole e utilizzate in aree dense, tipicamente indoor.  
+Qual è la funzione delle celle umbrella nel GSM? | Le celle umbrella coprono i buchi tra le celle macro, micro e pico.  
+Come funziona il multiplexing nel GSM? | Il GSM utilizza il multiplexing a divisione di frequenza, con ogni apparecchio che trasmette su una frequenza e riceve su una frequenza più alta.  
+Qual è la differenza principale tra GSM e D-AMPS? | Il GSM ha una capacità utente più alta e una velocità dati per utente superiore rispetto al D-AMPS.  
+Quante coppie di canali simplex sono disponibili in un sistema GSM? | Un sistema GSM ha 124 coppie di canali simplex.  
+Quante connessioni separate supporta il GSM tramite multiplexing a divisione di tempo? | Il GSM supporta otto connessioni separate.  
+Perché la trasmissione e la ricezione nel GSM non avvengono nello stesso intervallo temporale? | Perché il GSM non è in grado di trasmettere e ricevere contemporaneamente.  
+Qual è il ruolo della SIM card nel GSM? | La SIM card memorizza i dati dell'abbonato e fornisce autenticazione e autorizzazione all'utilizzo della rete.  
+Qual è un pregio del sistema GSM? | L'interoperabilità tra reti diverse che seguono un unico standard internazionale.  
+Qual è un difetto del sistema GSM? | -- (Informazione non fornita nel documento).  
+In quali ambiti viene utilizzato il GSM? | È utilizzato nella seconda generazione di telefoni cellulari ed è il sistema più diffuso al mondo.
+Cos'è il CDMA? | Il CDMA (Code Division Multiple Access) è una tecnologia di telecomunicazione di seconda generazione che consente la trasmissione di voce digitale utilizzando l'intero spettro di frequenza attraverso la codifica.  
+Come funziona il CDMA nella trasmissione dei dati? | In CDMA, ogni bit è suddiviso in intervalli chiamati "chip" e ad ogni stazione è assegnato un codice di chip univoco per distinguere i segnali trasmessi.  
+Qual è la differenza tra CDMA e GSM riguardo alla divisione dello spettro? | A differenza di GSM, che utilizza FDM e TDM per dividere lo spettro in canali, CDMA sfrutta l'intero spettro contemporaneamente per la trasmissione di dati.  
+Quanti chip ci sono normalmente per ogni bit in CDMA? | Normalmente ci sono 64 o 128 chip per ogni bit in CDMA.  
+Cosa rappresenta la sequenza di chip in CDMA? | La sequenza di chip è un codice m-bit univoco assegnato a ciascuna stazione per la trasmissione e ricezione dei dati.  
+Come viene trasmesso un bit '1' in CDMA? | Per trasmettere un bit '1', una stazione invia la sua sequenza di chip.  
+Come viene trasmesso un bit '0' in CDMA? | Per trasmettere un bit '0', la stazione invia il complemento a uno della propria sequenza di chip.  
+Che cosa sono i codici Walsh in CDMA? | I codici Walsh sono un metodo utilizzato per generare sequenze di chip ortogonali, permettendo la separazione dei segnali trasmessi da diverse stazioni.  
+Qual è la capacità del CDMA in termini di ampiezza di banda? | Il CDMA opera in una banda di 1,25 MHz, consentendo una maggiore ampiezza di banda rispetto alle tecnologie precedenti.  
+Quali sono i pregi del CDMA rispetto ad altre tecnologie? | Il CDMA offre una maggiore efficienza spettrale, una maggiore velocità di trasmissione dati e una migliore sicurezza nella demultiplazione.  
+Quali sono gli ambiti d'uso principali del CDMA? | Viene utilizzato nei telefoni di seconda generazione come alternativa a D-AMPS e GSM.  
+Cos'è il GPRS? | Il GPRS è un'evoluzione tra la seconda e la terza generazione di telefoni cellulari, che consente la trasmissione di dati in pacchetti.  
+Qual è la differenza principale tra GPRS e le generazioni precedenti di telefonia cellulare? | GPRS permette la trasmissione di dati insieme alla voce, mentre le generazioni precedenti si focalizzavano solo sulla voce.  
+Come funziona la trasmissione dei pacchetti nel GPRS? | Le stazioni mobili inviano richieste di slot temporali alla stazione base per trasmettere pacchetti IP.  
+Quali sono i vantaggi del GPRS in termini di utilizzo della banda? | Non c'è spreco di banda, poiché utilizza una tariffa a traffico invece di una tariffa temporale.  
+Quale protocollo di supporto viene aggiunto dal GPRS? | Il GPRS aggiunge il supporto a PPP (Point-to-Point Protocol) e IP (Internet Protocol).  
+Qual è un difetto noto del GPRS? | I difetti del GPRS non sono stati specificati nel testo, lasciando spazio a interpretazioni basate sull'uso reale.  
+In quali ambiti viene comunemente utilizzato il GPRS? | Viene utilizzato per scambi di pacchetti dati tramite celle basate su sistemi vocali.  
+Come vengono riservati gli slot temporali nel GPRS? | Quando GPRS è operativo, alcuni slot temporali vengono riservati su alcune frequenze per il traffico di pacchetti.  
+Che cosa rappresenta un canale logico nel GPRS? | Un canale logico è utilizzato per scaricare pacchetti dalla stazione base nella stazione mobile.  
+Cosa succede a un pacchetto IP una volta arrivato alla stazione base? | Una volta arrivato alla stazione base, il pacchetto è trasferito su Internet attraverso una connessione via cavo.
+Cos'è l'handoff nella telefonia mobile?|L'handoff è la procedura tramite la quale un terminale cambia il canale utilizzato durante una comunicazione.  
+Quali sono i due tipi di handoff?|I due tipi di handoff sono il soft handoff e l'hard handoff.  
+Come funziona il soft handoff?|Nel soft handoff, il telefono è acquisito dalla nuova stazione di base prima di interrompere il segnale dalla precedente, evitando perdite di continuità.  
+Qual è il vantaggio del soft handoff?|Il vantaggio del soft handoff è che non si perde continuità di chiamata.  
+Qual è lo svantaggio del soft handoff?|Il svantaggio del soft handoff è che richiede che il dispositivo gestisca più frequenze contemporaneamente.  
+Come funziona l'hard handoff?|Nell'hard handoff, la vecchia stazione di base rilascia il telefono prima che la nuova lo acquisisca, il che può causare l'interruzione della chiamata.  
+Qual è un vantaggio dell'hard handoff?|L'hard handoff non richiede che il dispositivo gestisca più frequenze contemporaneamente.  
+Qual è uno svantaggio dell'hard handoff?|Uno svantaggio dell'hard handoff è che può causare la caduta della linea e la perdita della chiamata se la nuova cella non acquisisce il dispositivo rapidamente.  
+In quali ambiti viene utilizzato l'handoff?|L'handoff viene utilizzato nei dispositivi mobili, in particolare nei cellulari che sfruttano le celle.  
+Quali telefoni possono utilizzare il soft handoff?|Il soft handoff può essere utilizzato da telefoni di generazione superiore alla seconda.  
+Quali telefoni possono utilizzare l'hard handoff?|L'hard handoff può essere utilizzato da tutti i telefoni, indipendentemente dalla loro generazione.  
+FDM cos'è?|È una tecnica di condivisione delle risorse trasmissive di un canale di comunicazione, che divide l'intero canale in sotto canali di diverse bande di frequenza.  
+Quali sono i pregi del FDM?|Permette a più utenti di condividere un canale, suddividendo le conversazioni in base alle frequenze.  
+Quali sono i difetti del FDM?|Gli intervalli di guardia possono sprecare banda, utilizzata solo per la sicurezza.  
+In quali ambiti è utilizzato il FDM?|È utilizzato nelle trasmissioni televisive, radiofoniche, telefoniche e nelle reti cellulari.  
+TDM cos'è?|È una tecnica di condivisione di un canale di comunicazione in cui ogni dispositivo ha l'uso esclusivo del canale per un breve tempo, dividendo il tempo in frame e slot.  
+Quali sono i pregi del TDM?|È più efficiente del FDM poiché elimina la necessità di intervalli di guardia.  
+Quali sono i difetti del TDM?|Necessita di un circuito di sincronizzazione temporale per l'estrazione del time-slot.  
+In quali ambiti è utilizzato il TDM?|È utilizzato nelle trasmissioni di fonia nella rete telefonica e nei sistemi a commutazione di circuito.  
+CDM cos'è?|È il protocollo di accesso multiplo a canale condiviso, che offre maggiore velocità di trasmissione rispetto a TDM e FDM.  
+Quali sono i pregi del CDM?|Garantisce una miglior efficienza, utilizza l'intera banda di frequenza e fornisce maggiore sicurezza tramite codici ortogonali.  
+Quali sono i difetti del CDM?|Necessita di circuiti più complessi rispetto a FDM e TDM.  
+In quali ambiti è utilizzato il CDM?|È il protocollo più diffuso nelle reti wireless e nei dispositivi mobili di seconda generazione e successive.
+QAM cos'è?|QAM è un sistema di modulazione numerica di ampiezza in quadratura, sia digitale che analogica, con portanti sinusoidi che differiscono di $90^{\circ}$.
+Qual è la differenza principale tra QAM e PSK?|La QAM migliora l'immunità al rumore rispetto alla PSK (Phase Shift Keying).
+Cos'è la costellazione in QAM?|La costellazione è un diagramma che rappresenta tutti gli stati della portante in una modulazione QAM.
+Quali sono le caratteristiche di QAM16?|QAM16 utilizza quattro ampiezze e quattro fasi, per un totale di 16 diverse combinazioni.
+Perché i modem ad alta velocità devono avere lo stesso schema di costellazione?|Ogni modem ha un suo schema a costellazione e può comunicare solo con altri modem che adottano lo stesso schema.
+Qual è un pregio della modulazione QAM?|Permette di inviare più bit per baud (simbolo) rispetto alle normali modulazioni.
+Qual è un difetto della modulazione QAM?|Ogni modem ha un proprio schema a costellazione e può comunicare solo con modem con lo stesso schema, anche se molti possono emulare costellazioni più lente.
+In quali ambiti viene utilizzata la modulazione QAM?|È utilizzata come standard per modem telefonici, facente parte dello strato fisico.
+Cos'è il byte stuffing?|Il byte stuffing è un metodo di framing che utilizza un flag byte per delimitare l'inizio e la fine dei frame, permettendo al destinatario di cercare il flag per rilevare la fine di un frame corrente.
+Qual è la funzione principale dello strato data link?|La funzione principale dello strato data link è rilevare ed eventualmente correggere gli errori nei dati trasmessi dallo strato fisico.
+Come vengono gestiti i frame nel byte stuffing?|I frame vengono suddivisi utilizzando un flag byte che indica l'inizio e la fine dei frame, e due flag byte consecutivi indicano la fine di un frame e l'inizio del successivo.
+Qual è il problema legato al byte FLAG nel byte stuffing?|Il problema si presenta quando i dati inviati replicano il byte FLAG, creando confusione nel destinatario per identificare correttamente i frame.
+Come viene risolto il problema del byte FLAG replicato?|Il problema viene risolto utilizzando un byte ESC, che precede una occorrenza accidentale del byte FLAG o ESC per indicare che il successivo byte deve essere considerato come dato.
+Qual è il vantaggio principale del byte stuffing?|Il vantaggio principale del byte stuffing è che consente una suddivisione di bit in frame e risolve la questione della sincronia dei frame grazie all'uso di flag byte.
+Quali sono i difetti del byte stuffing?|I difetti del byte stuffing includono il legame con caratteri da 8 bit, l'uso notevole di caratteri superflui e la limitazione in alcune codifiche di caratteri.
+In quale ambito è comunemente utilizzato il byte stuffing?|Il byte stuffing è comunemente utilizzato come metodo di framing nello strato Data-Link, in particolare dal protocollo PPP per suddividere il flusso di bit in frame.
+Cos'è il bit stuffing?|Il bit stuffing è una tecnica di framing che permette di codificare dati in modo da risolvere i problemi legati al byte stuffing, inserendo un bit con valore 0 dopo cinque "1" consecutivi.  
+Qual è la sequenza di flag utilizzata nel bit stuffing?|La sequenza di flag utilizzata nel bit stuffing è "0111110".  
+Qual è il ruolo del flag byte nel bit stuffing?|Il flag byte serve per segnare l'inizio e la fine di un frame, consentendo di riconoscere i confini in modo inequivocabile.  
+Cosa succede quando il ricevente trova cinque "1" seguiti da uno "0"?|Il ricevente elimina lo "0" poiché indica che sono stati ricevuti cinque "1" consecutivi.  
+Quali sono i pregi del bit stuffing?|I pregi del bit stuffing includono la risoluzione dei problemi di compatibilità e spreco di banda del byte stuffing e la possibilità di suddividere i bit in frame facilmente individuabili.  
+In quali ambiti viene utilizzato il bit stuffing?|Il bit stuffing è utilizzato in protocolli che prevedono frame di dimensione fissa e in alcuni protocolli con flusso continuo di dati.  
+Qual è il compito dello strato data link riguardo agli errori?|Lo strato data link deve rilevare e correggere errori nei dati che potrebbero essere alterati durante il trasferimento.  
+Come viene gestita la continuità del flusso di dati nel bit stuffing?|Nel bit stuffing, gli "0" sono inseriti nel flusso per garantire la continuità del flusso di dati.  
+Che problema risolve il bit stuffing rispetto al byte stuffing?|Il bit stuffing risolve i problemi di poca compatibilità con codifiche di caratteri e riduce lo spreco di banda rispetto al byte stuffing.  
+Qual è l'importanza della sequenza flag nel rilascio di frame?|La sequenza flag consente al ricevente di identificare chiaramente l'inizio e la fine dei frame, anche se il ricevente perde traccia della frammentazione.  
+Numero di bit necessari per riconoscere e correggere gli errori di trasmissione?|Per correggere d errori è necessaria una codifica con distanza 2d+1.  
+Numero di bit necessari per riconoscere gli errori di trasmissione?|Per trovare d errori è necessaria una codifica con distanza d+1.  
+Cosa permette la codifica a correzione d'errore?|Permette di ricostruire il messaggio in caso di anomalie.  
+Cosa permette la codifica a rilevazione d'errore?|Permette di capire che c'è stato un errore, ma non di correggerlo.  
+Cosa rappresenta la distanza di Hamming?|È il numero di bit differenti tra due codeword calcolato tramite OR esclusivo.  
+Quali sono i pregi della semplice rilevazione d'errore?|Permette di diminuire la quantità di bit dati trasmessi.  
+Quali sono i vantaggi della rilevazione e correzione degli errori?|Consente un minor numero di invii e la ricostruzione autonoma del frame.  
+Qual è uno svantaggio della semplice rilevazione degli errori?|Non permette la ricostruzione del dato.  
+Qual è uno svantaggio della rilevazione e correzione degli errori?|Necessita del doppio dei bit per poter essere attuata.  
+In quali ambiti si utilizza la codifica a correzione dell'errore?|Nelle reti wireless, per ricostruire il messaggio in caso di errore.  
+In quali ambiti è più conveniente utilizzare la codifica a rilevazione d'errore?|Nelle LAN, dove gli errori sono più sporadici.
+Cos'è il CRC (Cycle Redundancy Check)?|Il CRC è un metodo per il calcolo di somme di controllo che serve a individuare errori casuali nella trasmissione di dati.
+Qual è il polinomio generatore del CRC nell'esempio fornito?|Il polinomio generatore è $x^4+x+1$.
+Come viene rappresentato un frame di bit nel contesto del CRC?|Un frame di k bit è visto come un polinomio di grado k-1, con i coefficienti che possono essere solo 0 o 1.
+Cosa rappresenta il coefficiente più alto di un polinomio in forma binaria?|Il coefficiente più alto è quello più a sinistra del polinomio, che rappresenta il bit di ordine più alto.
+Perché è necessario concordare un polinomio generatore tra sorgente e destinazione?|Per assicurarsi che entrambi sappiano come calcolare e verificare il checksum e che il polinomio generatore abbia i bit di ordine più alto e più basso a “1”.
+Cosa si deve fare al frame di dati prima della divisione?|Si devono aggiungere zeri al frame, dove z è il grado del polinomio generatore.
+Qual è il passo successivo dopo aver preparato il frame per il calcolo del checksum?|Bisogna eseguire la divisione del frame esteso per il polinomio generatore.
+Cosa indica un resto diverso da zero dopo la divisione del frame per il polinomio generatore?|Indica che c'è stato un errore di trasmissione.
+Quali sono i pregi principali del CRC?|Richiede conoscenze matematiche modeste, è semplice da realizzare ed ha un ottimo grado di rilevazione degli errori su linee con elevato rumore di fondo.
+Quali sono le limitazioni del CRC?|È utile principalmente per errori causati da interferenze, rumore o distorsione, e non per tentativi intenzionali di manomissione dei dati.
+In quale ambito viene comunemente utilizzato il CRC?|Viene utilizzato nello strato data-link per individuare errori casuali nella trasmissione di dati.
+Cos'è il protocollo stop-and-wait?|È un metodo di trasmissione in cui il mittente invia un solo frame alla volta e attende un ACK dal destinatario prima di inviarne un altro.  
+Qual è la gestione del frame nel protocollo stop-and-wait?|Il mittente invia un frame e riceve un ACK dal destinatario, se l'ACK non viene ricevuto, il mittente ritrasmette il frame dopo un timeout.  
+Quali sono i problemi del protocollo stop-and-wait?|I problemi includono la possibilità di ricevere ACK danneggiati, duplicati e dissincronia nei numeri di sequenza dei frame.  
+Quali sono i pregi del protocollo stop-and-wait?|Permette di gestire pacchetti ricevuti, sia corretti che danneggiati, per passare allo strato network.  
+Quali sono i difetti del protocollo stop-and-wait?|Include perdita di dati, lentezza generale e limitato uso del canale di comunicazione.  
+Perché il protocollo stop-and-wait è considerato inefficiente?|È inefficiente a causa del tempo di attesa tra l'invio dei pacchetti e l'ACK che riduce la capacità del canale di comunicazione.  
+Qual è l'ambito d'uso del protocollo stop-and-wait?|È utilizzato nello strato data-link, ma raramente impiegato a causa della sua inefficienza rispetto ad altri protocolli.  
+Cos'è il piggybacking in relazione al protocollo stop-and-wait?|Il piggybacking è una tecnica che può migliorare l'efficienza del protocollo, consentendo di inviare dati insieme agli ACK.  
+Quali tecniche avanzate possono essere usate con il protocollo stop-and-wait?|Tecniche avanzate che possono essere utilizzate includono il piggybacking e la numerazione dei pacchetti per una migliore gestione della trasmissione.
+Cos'è il piggybacking?|Il piggybacking è una tecnica che consente di inviare un ACK insieme a un frame di dati in uscita, riducendo il numero di messaggi separati e migliorando l'efficienza della comunicazione.  
+Come funziona il piggybacking?|Il piggybacking funziona aggiungendo l'ACK nell'intestazione del frame dati in uscita, evitando l'invio di un frame di controllo separato.  
+Qual è il problema principale del piggybacking?|Il problema principale è l'attesa di un pacchetto, che potrebbe far scattare il timer del mittente e portare al reinvio del frame se l'ACK non viene ricevuto in tempo.  
+Quali sono i vantaggi del piggybacking?|I vantaggi includono un miglior uso della banda disponibile e una diminuzione della congestione del canale di comunicazione, poiché gli ACK non vengono inviati separatamente.  
+Quali sono i difetti del piggybacking?|I difetti includono la possibilità che l'ACK non venga inviato se l'attesa per il pacchetto è eccessiva, costringendo a inviare un ACK singolarmente.  
+In quali ambiti viene utilizzato il piggybacking?|Il piggybacking è spesso utilizzato in protocolli di comunicazione che richiedono la conferma di ricezione, in particolare nelle reti LAN.
+Cos'è la tecnica dello Sliding Window?|La tecnica dello Sliding Window è una classe di protocolli di controllo di flusso di dati che gestisce l'invio e la ricezione di frame attraverso finestre di invio e ricezione.  
+Qual è la funzione della finestra di invio nella tecnica dello Sliding Window?|La finestra di invio contiene i frame da spedire e quelli già spediti ma in attesa di ACK, permittendo di mantenere più frame nel buffer per una possibile ritrasmissione.  
+Cosa succede se il buffer della finestra di invio è pieno?|Se il buffer è pieno, il livello data link costringe il livello network a sospendere la consegna di ulteriori pacchetti.  
+Cosa accade quando un frame riceve un ACK nella finestra di invio?|Quando si ottiene un ACK, il frame corrispondente esce dalla finestra, lasciando spazio per altri frame.  
+Come funziona la finestra di ricezione nella tecnica dello Sliding Window?|La finestra di ricezione mantiene gli indici dei frame che possono essere accettati; se un frame ha un indice dentro la finestra viene accettato e viene inviato un ACK, altrimenti è scartato.  
+Cosa significa avere una finestra di dimensione massima uguale a 1 nella tecnica dello Sliding Window?|Una finestra di dimensione massima uguale a 1 indica il caso "stop-and-wait", dove dopo aver inviato un frame si attende l'ACK prima di inviarne ulteriori.  
+Quali sono i vantaggi della tecnica dello Sliding Window?|I vantaggi includono l'ottimizzazione dell'uso della banda sia in entrata che in uscita, in base alle dimensioni delle finestre di invio e ricezione.  
+Qual è l'ambito d'uso principale della tecnica dello Sliding Window?|La tecnica dello Sliding Window è utilizzata prevalentemente dal protocollo TCP per i meccanismi di controllo di flusso e congestione.  
+Le finestre di mittente e destinatario devono avere la stessa dimensione nella tecnica dello Sliding Window?|No, le finestre di mittente e destinatario non devono necessariamente avere le stesse dimensioni.
+Cos'è il protocollo "go back n"?|È un'istanza del protocollo "Automatic Repeat-reQuest" che consente al mittente di inviare più frame senza attendere gli ACK corrispondenti, con una finestra di ricezione di dimensione 1.  
+Qual è il principale vantaggio del protocollo "go back n"?|Ottimizza l'uso della banda inviando più pacchetti senza attendere gli ACK, soprattutto in caso di pochi errori.  
+Qual è il principale svantaggio del protocollo "go back n"?|Può risultare inefficiente e far perdere molta banda in caso di alta frequenza di errori.  
+Come funziona la tecnica del piggybacking nel protocollo "go back n"?|Consiste nel trasmettere l'ACK di un pacchetto nell'intestazione del pacchetto di informazione successivo per ridurre le latenze.  
+In quali ambiti viene utilizzato il protocollo "go back n"?|Viene usato in situazioni in cui la finestra di ricezione è scarsa e la finestra di invio è più grande, ottimizzando così le risorse disponibili.  
+Cosa succede quando si verifica un errore nel protocollo "go back n"?|Il mittente deve riprendere a inviare i frame a partire dall'ultimo frame non riconosciuto, ignorando quelli successivi.  
+Qual è la differenza principale tra "go back n" e "selective repeat"?|La differenza sta nell'approccio alla gestione degli errori e nell'uso delle risorse di banda e buffer; "go back n" ripete tutti i frame dopo quello perso, mentre "selective repeat" ritrasmette solo i frame mancanti.  
+Perché il protocollo "go back n" è considerato efficiente? |Perché consente un'elevata capacità di trasmissione evitando ritardi dovuti all'attesa degli ACK per ogni frame inviato.  
+Cos'è la tecnica del selective repeat?|La tecnica del selective repeat è un metodo di ripristino degli errori che consente di ricevere frame in sequenza non necessariamente ordinata, mantenendo i frame corretti in un buffer e ritrasmettendo solo quelli che non sono stati riconosciuti (acknowledged).  
+Qual è il problema principale che il selective repeat risolve?|Il selective repeat allevia i limiti dell'invio di un ACK per ogni frame, migliorando l'efficienza della banda attraverso l'invio di più frame in una volta.  
+Cosa succede quando viene ricevuto un frame in errore nel selective repeat?|Il frame ricevuto in errore viene scartato e i frame corretti ricevuti successivamente vengono salvati in un buffer.  
+Quando viene ritrasmesso un frame nel selective repeat?|Il frame più vecchio senza ACK viene ritrasmesso solo quando si verifica un timeout.  
+Che funzione hanno i NACK nel selective repeat?|I NACK (Not acknowledgement) vengono inviati per segnalare errori e stimolare la ritrasmissione dei frame prima che scada il timer.  
+Qual è una caratteristica fondamentale della finestra di ricezione nel selective repeat?|La finestra di ricezione nel selective repeat è maggiore di 1, consentendo di gestire più frame contemporaneamente.  
+Qual è un vantaggio del selective repeat?|Aumenta le performance delle comunicazioni, soprattutto grazie all'uso dei NACK per stimolare le ritrasmissioni rapide.  
+Qual è un difetto del selective repeat?|Poiché la ricezione non è sequenziale, c'è il rischio che gli intervalli di frame si sovrappongano, causando confusione su quali dati siano stati ritrasmessi o siano nuovi.  
+In quali ambiti viene solitamente utilizzato il selective repeat?|Il selective repeat viene utilizzato in base alla disponibilità delle risorse, specialmente quando la finestra di ricezione è maggiore di 1.  
+Come si differenzia il selective repeat dal go back-n?|Il selective repeat permette la ricezione e la gestione dei frame in ordine non sequenziale, mentre il go back-n richiede la ritrasmissione di tutti i frame successivi a uno errato.
+Cos'è il protocollo ALOHA? | ALOHA è un protocollo di rete per garantire le funzionalità di accesso multiplo al mezzo di trasmissione dati condiviso tra più utenti, utilizzato in reti di tipo broadcast.  
+Qual è la percentuale di successo del protocollo ALOHA puro? | Il successo dell'ALOHA puro è di circa il 18%.  
+Quali sono i principali difetti del protocollo ALOHA? | È poco efficiente in comunicazioni con molte stazioni e può causare collisioni.  
+Cos'è ALOHA Slotted? | ALOHA Slotted è una variante di ALOHA che introduce la divisione del tempo in intervalli discreti, chiamati slot, per le trasmissioni.  
+Qual è il vantaggio principale di ALOHA Slotted rispetto a ALOHA puro? | ALOHA Slotted migliora il grado di successo di circa il doppio, raggiungendo circa il 36%.  
+Qual è uno svantaggio del protocollo ALOHA Slotted? | Necessita di un meccanismo di sincronizzazione per indicare quando le stazioni possono cominciare la trasmissione.  
+In quali ambiti viene utilizzato il protocollo ALOHA? | È utilizzato come protocollo di livello MAC in connessioni broadcast per permettere l'accesso multiplo al mezzo trasmissivo.  
+Qual è una caratteristica distintiva delle trasmissioni in ALOHA Slotted? | Ogni stazione deve attendere l'inizio di uno slot temporale per trasmettere.  
+Quando è stato inventato il protocollo ALOHA? | È stato inventato negli anni '70 nelle Hawaii.  
+Perché ALOHA e ALOHA Slotted sono caduti in disuso? | Entrambi i protocolli sono caduti in disuso fino a quando non si è presentato il problema di allocare un canale condiviso da più utenti in competizione, riscoprendoli in seguito.
+Cos'è il CSMA? | Il CSMA è una tecnica di trasmissione dati in cui ogni dispositivo verifica se altri nodi stanno trasmettendo sul canale prima di inviare dati.  
+Quali sono le varianti del CSMA? | Le varianti del CSMA includono CSMA 1-persistente, CSMA non persistente e CSMA p-persistente.  
+Come funziona il CSMA 1-persistente? | In CSMA 1-persistente, se il canale è libero, la stazione trasmette immediatamente, aumentando il rischio di collisioni.  
+Qual è il vantaggio del CSMA non persistente rispetto al CSMA 1-persistente? | Il CSMA non persistente attende un intervallo casuale prima di riprovare a trasmettere se il canale è occupato, riducendo le collisioni ma aumentando i ritardi.  
+Come funziona il CSMA p-persistente? | In CSMA p-persistente, ogni stazione trasmette con probabilità p se il canale è libero e rimanda con probabilità q=1-p.  
+Qual è un miglioramento del CSMA riguardo alle collisioni? | Un miglioramento è il CSMA/CD, che consente alle stazioni di annullare la trasmissione in caso di collisione, risparmiando tempo e banda.  
+Quali sono i pregi del CSMA? | I pregi del CSMA includono l'aumento delle prestazioni rispetto ai protocolli ALOHA e la capacità di gestire le collisioni in modo più efficace.  
+Quali sono i difetti del CSMA? | I difetti del CSMA possono includere l'inefficienza in caso di alto traffico e il rischio di collisioni nonostante le migliorie.  
+In quali ambiti è utilizzato il CSMA/CA? | Il CSMA/CA è utilizzato nelle connessioni in cui il rilevamento delle collisioni non è realizzabile, come nelle reti senza fili.  
+Qual è uno standard che utilizza CSMA/CA? | CSMA/CA è utilizzato nello standard IEEE 802.11.  
+Qual è la differenza principale tra CSMA/CD e CSMA/CA? | CSMA/CD rileva le collisioni e interrompe la trasmissione danneggiata, mentre CSMA/CA tenta di evitare le collisioni prima che si verifichino.
+Cos'è il Basic Bitmap? | Il Basic Bitmap è un protocollo di accesso multiplo che utilizza una mappa di bit elementare per garantire la gestione degli accessi senza collisioni in un canale condiviso.  
+Come funziona il Basic Bitmap? | Ogni periodo di contesa è composto da N intervalli, dove ogni stazione invia un "1" nell'intervallo corrispondente al suo numero se ha un frame da inviare, evitando collisioni.  
+Qual è un pregio del Basic Bitmap? | Garantisce che non ci siano collisioni durante l'utilizzo di un canale condiviso.  
+Qual è un difetto del Basic Bitmap? | È sbilanciato, dando priorità alle stazioni con numeri bassi e causando attese più lunghe per stazioni numerate con numeri alti.  
+Qual è il requisito del Basic Bitmap per ogni stazione? | Ogni stazione ha bisogno di 1 bit di controllo, il che non è adatto in reti con migliaia di utenti.  
+In quale ambito viene utilizzato il Basic Bitmap? | Viene utilizzato nel protocollo dello strato MAC per connessioni con canale condiviso.  
+Cosa accade alla fine degli N intervalli nel Basic Bitmap? | Ogni stazione sa quali stazioni vogliono trasmettere, eliminando le possibilità di collisione.  
+Qual è l'altra denominazione del Basic Bitmap? | È anche chiamato protocollo a prenotazione.  
+Perché le collisioni sono sfavorevoli nel Basic Bitmap? | Le collisioni sono sfavorevoli perché diminuiscono le prestazioni del sistema, specialmente in cavi lunghi e con frame corti.  
+Cosa succede se due stazioni vogliono trasmettere con numeri diversi nel Basic Bitmap? | La stazione con il numero più basso si aggiudica la posizione per la trasmissione.
+Cos'è il protocollo collision free binary countdown?|Il collision free binary countdown è un protocollo che migliora il basic bitmap utilizzando un sistema di assegnazione della linea basato su stringhe binarie di uguale lunghezza.
+Come avviene il controllo delle collisioni nel collision free binary countdown?|Le stazioni confrontano i loro indirizzi: una stazione rinuncia a trasmettere se incontra un "1" in una posizione di bit di ordine elevato rispetto al proprio "0".
+Qual è l'efficienza teorica del protocollo collision free binary countdown?|L'efficienza può essere espressa come (d/d*log_2N) e può raggiungere il 100% se l'indirizzo del mittente è l'intestazione del frame.
+Qual è un pregio del collision free binary countdown rispetto al basic bitmap?|Il collision free binary countdown garantisce comunicazioni senza collisioni e migliora l'efficienza in situazioni di alto carico.
+Qual è un difetto del collision free binary countdown?|Il protocollo favorisce le stazioni con numeri più alti, portando a uno sbilanciamento nella priorità di trasmissione.
+Quale soluzione è proposta per il problema dello sbilanciamento tra stazioni nel collision free binary countdown?|Si propone di far ruotare i valori delle stazioni ad ogni step, spostando la stazione che riesce a inviare alla fine della coda.
+In quali ambiti viene utilizzato il protocollo collision free binary countdown?|È un protocollo dello strato MAC, utilizzato per connessioni su canali condivisi, ma attualmente non è utilizzato.
+Cos'è l'adaptive tree walk protocol? | È un protocollo a contesa limitata che migliora le prestazioni dei protocolli di accesso a canale condiviso.  
+Come funziona il protocollo adaptive tree walk? | Si struttura come un albero binario, dove le stazioni sono le foglie e si tenta di inviare dati partendo dalla radice; in caso di collisione si scende nel sottoalbero sinistro.  
+Qual è l'obiettivo principale dell'adaptive tree walk protocol? | Migliorare le prestazioni dei protocolli di contesa e senza collisioni a carichi variabili.  
+Quali sono i vantaggi dell'adaptive tree walk protocol? | Garantisce un ritardo limitato in condizioni di basso carico e buona efficienza a carichi più elevati.  
+In quali situazioni è preferibile utilizzare l'adaptive tree walk protocol? | In ambiti con più stazioni che desiderano trasmettere nello stesso mezzo di trasmissione.  
+Qual è un limite significativo dell'adaptive tree walk protocol? | I difetti non sono specificati nel materiale, ma i protocolli di contesa in generale possono avere problemi in casi di carico estremo.  
+Cos'è Ethernet?|Ethernet è il sistema LAN più diffuso al mondo, economico e facile da usare, adeguato all'utilizzo con TCP/IP.  
+Qual è il protocollo utilizzato per regolare l'accesso al mezzo trasmissivo in Ethernet?|Il protocollo utilizzato è del tipo CSMA/CD.  
+Qual è la lunghezza massima di un cavo 10base5?|Il cavo 10base5 può supportare segmenti lunghi fino a 500m.  
+Cosa sono le spine a vampiro?|Le spine a vampiro sono utilizzate per le connessioni del cavo 10base5, si spingono nel nucleo centrale del cavo coassiale.  
+Quali sono le caratteristiche del 10base2?|Il 10base2, noto come thin Ethernet, è più facile da piegare, utilizza connettori BNC e ha una lunghezza massima di 185 metri, supportando al massimo 30 macchine.  
+Qual è la lunghezza massima dei cavi 10base-T?|I cavi 10base-T hanno una lunghezza massima di 100 metri dall'hub.  
+Cosa caracteriza il sistema di cablaggio 10base-F?|Il 10base-F utilizza fibre ottiche e offre un'eccellente immunità alle interferenze, permettendo anche di collegare edifici distanti.  
+Qual è un vantaggio del 10base-F?|Un vantaggio del 10base-F è la difficoltà di intercettare i dati trasmessi sulla fibra, garantendo una buona sicurezza.  
+Quali sono i principali difetti del 10base-T?|I principali difetti del 10base-T sono la lunghezza massima limitata di 100 metri e il costo relativamente più alto rispetto ad altri sistemi.  
+Qual è il vantaggio di utilizzare hub nel cablaggio Ethernet?|L'utilizzo di hub consente di localizzare e correggere facilmente i guasti.  
+Perché il 10base-F è considerato costoso?|Il 10base-F è considerato costoso a causa del prezzo elevato dei connettori e dei terminatori delle fibre ottiche.  
+Quali cavi Ethernet sono oggi obsoleti?|I cavi 10base5 e 10base2 sono ormai obsoleti.  
+In quali ambiti d'uso è diventato comune il 10base-T?|Il 10base-T è diventato una tipologia standard di cablaggio nello standard Ethernet per reti LAN.  
+Qual è la differenza tra 100Base-T e 10Base-T?|La differenza principale è che 100Base-T offre velocità superiori rispetto al 10Base-T.
+Cos'è la codifica Manchester? | La codifica Manchester è una tecnica di codifica che rappresenta i bit "0" con un segnale Basso-Alto e gli "1" con un segnale Alto-Basso, e non necessita di un segnale di sincronia esterno.  
+Qual è il vantaggio principale della codifica Manchester? | Permette un flusso auto-sincronizzante dei dati, riducendo il problema di dissincronia.  
+Qual è lo svantaggio della codifica Manchester? | Richiede il doppio della banda rispetto alla pura conversione binaria 0-5 volt.  
+In cosa consiste la codifica Manchester differenziale? | La codifica differenziale si basa sulla verifica di transizioni all'inizio di un intervallo; la presenza di una transizione identifica un valore, mentre la mancanza indica il valore opposto.  
+Qual è la rappresentazione del bit "1" nella codifica Manchester differenziale? | Il bit "1" è rappresentato dalla mancanza di transizione all'inizio del suo intervallo.  
+Qual è la rappresentazione del bit "0" nella codifica Manchester differenziale? | Il bit "0" è indicato con un cambiamento di segnale nello stesso periodo.  
+Quali sono i pregi delle codifiche Manchester? | Risolvono il problema di ambiguità dovuto al segnale di 0 volt e permettono l'auto-sincronizzazione del segnale.  
+Quali sono i difetti delle codifiche Manchester? | Occupano il doppio della banda della codifica binaria elementare, poiché gli impulsi sono larghi la metà.  
+In quali ambiti viene utilizzata la codifica Manchester? | Tutti i sistemi Ethernet adottano la codifica Manchester per la sua semplicità.  
+In quali ambiti viene utilizzata la codifica Manchester differenziale? | La codifica Manchester differenziale è utilizzata da altre LAN.  
+Cos'è il binary exponential backoff?|È un algoritmo utilizzato per calcolare il tempo di attesa dopo una collisione in una rete, che aumenta esponenzialmente il tempo di attesa dopo ogni collisione successiva.  
+Qual è la caratteristica principale del CSMA/CD?|Controlla il canale prima di trasmettere e interrompe la trasmissione in caso di collisione.  
+Cosa succede dopo una collisione nel binary exponential backoff?|Il tempo viene diviso in intervalli discreti, e ogni stazione aspetta un numero casuale di intervalli prima di ritrasmettere.  
+Quali sono i valori casuali selezionati dopo la seconda collisione?|Dopo la seconda collisione, ogni stazione sceglie un numero casuale tra 0 e 3 per determinare l'intervallo di attesa.  
+Qual è il limite massimo di collisioni nel binary exponential backoff?|Il limite di collisioni è 16, dopodiché il chip di controllo manda un errore.  
+Quali sono i pregi del binary exponential backoff?|Si adatta dinamicamente al numero di stazioni e assicura un basso ritardo con poche collisioni.  
+Quali sono i difetti del binary exponential backoff?|Non sono stati forniti difetti specifici nel testo.  
+Qual è l'ambito d'uso del binary exponential backoff?|È utilizzato nel protocollo di accesso multiplo CSMA/CD per calcolare il tempo di attesa nel canale dopo una collisione.
+Stazione nascosta: cosa significa? | La stazione nascosta è una stazione che, volendo inviare dati, non riesce a ricevere i segnali di altre stazioni a causa della loro distanza.  
+Qual è un esempio di stazione nascosta? | Un esempio è quando A vuole inviare dati a B ma non sente C, che è troppo distante, mentre C riesce a inviare dati a B, causando un conflitto con A.  
+Stazione esposta: cosa significa? | La stazione esposta è una situazione in cui una stazione attende per evitare conflitti, pensando che la trasmissione di un'altra stazione interferisca, quando in realtà non è così.  
+Qual è un esempio di stazione esposta? | Un esempio è quando B trasmette a A e C vuole inviare a D; C rileva B in trasmissione e attende, anche se B non interferirebbe con C.  
+Quali problemi possono sorgere nelle LAN wireless? | Possono sorgere problemi di stazione nascosta e stazione esposta a causa dei conflitti nella trasmissione dei dati.  
+Come funziona il sistema CSMA in riferimento ai conflitti? | Il sistema CSMA evita le collisioni ascoltando le trasmissioni in corso; se non ci sono, la stazione invia i dati.  
+Qual è la conseguenza della stazione nascosta? | La conseguenza è che due stazioni possono inviare dati contemporaneamente, causando collisioni e perdite di dati.  
+Qual è la conseguenza della stazione esposta? | La conseguenza è uno stallo inutile, poiché una stazione attende per trasmettere quando potrebbe farlo senza conflitti.  
+Come si può descrivere la relazione tra stazione nascosta e stazione esposta? | Entrambe sono problematiche nelle reti wireless che possono portare a trasmissioni inefficienti e conflitti.  
+Cos'è il Bluetooth?|Il Bluetooth è uno standard wireless che permette il collegamento di dispositivi di calcolo, comunicazione e accessori vari mediante un sistema radio wireless a basso costo, bassa potenza e portata ridotta.  
+Qual è l'unità di base di un sistema Bluetooth?|L'unità di base di un sistema Bluetooth è la piconet, composta da un nodo master e da diversi nodi slave, non più di 7.  
+Cosa sono le piconet e gli scatternet?|Le piconet sono reti Bluetooth costituite da un nodo master e nodi slave; uno scatternet è un insieme di piconet collegate tramite un nodo ponte.  
+Chi controlla la comunicazione in una piconet?|Il nodo master controlla la comunicazione, gestisce il clock e decide quale dispositivo può comunicare in ciascun intervallo temporale.  
+Quali sono i due principali tipi di collegamenti Bluetooth?|I collegamenti Bluetooth si suddividono in orientati alla connessione e senza connessione.  
+Cosa si richiede per un collegamento orientato alla connessione?|Per un collegamento orientato alla connessione è necessario stabilire una connessione tra i dispositivi prima di inviare i dati.  
+Come funziona un collegamento senza connessione in Bluetooth?|In un collegamento senza connessione, il trasmettitore può iniziare a inviare pacchetti in qualsiasi momento, purché conosca l'indirizzo del destinatario.  
+Quali sono i due tipi di collegamenti supportati da Bluetooth?|Bluetooth supporta un servizio asincrono senza connessione (ACL) e un servizio sincrono orientato alla connessione (SCO).  
+Cosa supporta il servizio ACL?|Il servizio ACL supporta il traffico dati, basato su un servizio di tipo best-effort, e connessioni a commutazione di pacchetto.  
+Qual è la caratteristica principale del servizio SCO?|Il servizio SCO supporta connessioni con traffico real-time e multimediali, prevedendo connessioni a commutazione di circuito.  
+Che tipo di connessioni supporta il servizio SCO?|Il servizio SCO supporta connessioni punto-punto e connessioni simmetriche.  
+Come sono raggruppati i protocolli Bluetooth?|I protocolli Bluetooth sono raggruppati in strati che non seguono né il modello OSI né TCP/IP.
+Cos'è l'algoritmo di Flooding?|L'algoritmo di Flooding è un algoritmo statico in cui ogni pacchetto in arrivo è inviato a tutte le linee tranne quella da cui proviene.  
+Qual è la funzione principale dello strato network?|La funzione principale dello strato network è quella d'instradare i pacchetti dal computer sorgente al computer di destinazione.  
+Quali sono i due tipi principali di algoritmi di routing?|I due tipi principali di algoritmi di routing sono gli algoritmi non adattivi e gli algoritmi adattivi.  
+Come funzionano gli algoritmi non adattivi?|Gli algoritmi non adattivi basano le loro decisioni su misure e stime del traffico e della topologia corrente, calcolando il percorso all'avvio della rete in modalità fuori linea.  
+Cosa si intende per routing statico?|Il routing statico è il processo in cui le decisioni sui percorsi vengono calcolate in modalità fuori linea e scaricate nei router.  
+Qual è la differenza principale tra algoritmi adattivi e non adattivi?|Gli algoritmi adattivi cambiano le loro decisioni in base alle modifiche della topologia e del traffico, mentre gli algoritmi non adattivi utilizzano percorsi predefiniti.  
+In che modo il flooding selettivo differisce dal flooding standard?|Nel flooding selettivo, i router trasmettono i pacchetti solo attraverso le linee che vanno approssimativamente nella direzione corretta, anziché verso tutte le linee.  
+In quali situazioni viene utilizzato l'algoritmo di Flooding?|L'algoritmo di Flooding viene utilizzato in applicazioni militari e come metrica di confronto per altri algoritmi di routing.  
+Quali sono i vantaggi dell'algoritmo di Flooding?|L'algoritmo di Flooding è semplice da attuare e assicura la ricezione del pacchetto alla stazione desiderata.  
+Quali sono i difetti dell'algoritmo di Flooding?|I difetti dell'algoritmo di Flooding includono spreco di banda, pacchetti duplicati e rischio di cicli infiniti.  
+In quale ambito viene utilizzato l'algoritmo di Flooding come metrica di confronto?|L'algoritmo di Flooding viene utilizzato come metrica di confronto per altri algoritmi di routing nello strato Network.  
+Perché l'algoritmo di Flooding può essere considerato vantaggioso in ambito militare?|In ambito militare, la duplicazione dei pacchetti può essere una nota positiva a causa del rischio di bombardamenti, garantendo la ricezione dei dati.
+Cos'è il distance vector routing?|Il distance vector routing è un algoritmo di routing che consente a ciascun router di mantenere una tabella con la migliore distanza conosciuta per ogni destinazione e il percorso per raggiungerla, aggiornando queste informazioni attraverso scambi con i router vicini.  
+Qual è la funzione principale dello strato network?|La funzione principale dello strato network è instradare i pacchetti dal computer sorgente al computer di destinazione.  
+Quali sono i due tipi di algoritmi di routing?|Gli algoritmi di routing si possono raggruppare in algoritmi adattivi (dinamici) e non adattivi (statici).  
+Qual è un esempio di algoritmo non adattivo?|Un esempio di algoritmo non adattivo è l'algoritmo di Flooding.  
+Qual è l'algoritmo alla base del distance vector routing?|Il distance vector routing si basa sull'algoritmo di Bellman-Ford, che calcola i cammini minimi su un grafo.  
+Come misura ogni router la distanza dagli altri nodi?|Ogni router misura la distanza dai nodi adiacenti ricevendo informazioni dai router vicini.  
+Cosa succede in caso di "buone notizie" nel distance vector routing?|Se un router riceve un messaggio che accorcia la distanza per una destinazione, la tabella viene immediatamente aggiornata.  
+Cosa succede in caso di "cattive notizie" nel distance vector routing?|Se un nodo diventa irraggiungibile, si verifica il problema del count to infinity, dove la distanza verso quel nodo inizia ad aumentare all'infinito.  
+Qual è una soluzione al problema del count to infinity?|Una soluzione è limitare la lunghezza della route a un massimo di (lunghezza massima route) + 1.  
+Quali sono i pregi del distance vector routing?|Ogni router ha il percorso migliore per arrivare a tutti i suoi nodi adiacenti.  
+Quali sono i difetti del distance vector routing?|Impiega troppo tempo a raggiungere la convergenza, non tiene conto della banda della linea, e può causare cicli infiniti.  
+In quale ambito viene utilizzato il distance vector routing?|Il distance vector routing viene utilizzato nello strato network per instradare i pacchetti ai vari router della rete come algoritmo adattivo (dinamico).
+Cos'è il linkstate routing?|Il linkstate routing è un algoritmo di routing che costruisce una mappa della rete tramite informazioni sui collegamenti tra i router, sostituendo il distance vector routing.
+Quali sono i cinque punti fondamentali del linkstate routing?|1. Scoprire i propri vicini e i relativi indirizzi di rete. 2. Misurare il ritardo o il costo di ogni vicino. 3. Costruire un pacchetto che contiene tutte le informazioni raccolte. 4. Inviare questo pacchetto a tutti gli altri router. 5. Elaborare il percorso più breve verso gli altri router.
+Come scopre un router i suoi vicini nel linkstate routing?|Un router invia un pacchetto "HELLO" su ogni linea punto-punto per scoprire l'identità dei suoi vicini, che devono essere globalmente unici.
+Come si misura il costo della linea nel linkstate routing?|Si invia un pacchetto "ECHO" e si misura il tempo di andata/ritorno per stimare il ritardo.
+Cosa contiene il pacchetto costruito da un router per lo scambio di informazioni?|Il pacchetto contiene l'identità del trasmittente, un numero di sequenza, l'età, e una lista dei vicini con i relativi ritardi misurati.
+Qual è l'idea alla base della distribuzione dei pacchetti nel linkstate routing?|Si utilizza l'algoritmo di flooding per inviare ogni pacchetto a tutte le linee in uscita, tranne a quella da cui è arrivato.
+Cosa succede se un pacchetto è duplicato durante la distribuzione nel linkstate routing?|Il pacchetto duplicato viene scartato.
+Cosa succede se un pacchetto è nuovo durante la distribuzione nel linkstate routing?|Il pacchetto nuovo viene inoltrato a tutte le linee tranne a quella di ricezione.
+Cosa succede se il numero di sequenza di un pacchetto è inferiore al numero più alto visto in quel momento?|Il pacchetto viene scartato in quanto obsoleto.
+Quale algoritmo utilizza il router per costruire l'intero grafo della sottorete?|Il router utilizza l'algoritmo di Dijkstra per costruire l'intero grafo della sottorete.
+Quali sono i principali vantaggi del linkstate routing?|Può gestire reti caotiche, converge rapidamente al cammino minimo, difficilmente genera cicli e è facile da comprendere.
+Qual è il principale svantaggio del linkstate routing?|È difficile da realizzare a causa della notevole capacità di memoria ed elaborazione richiesta dai router.
+In quale ambito viene utilizzato il linkstate routing?|Il linkstate routing è utilizzato nello strato network come sostituto del distance vector routing ed è molto comune nelle reti attuali.
+Cos'è un choke packet? | Un choke packet è uno speciale pacchetto utilizzato per il controllo di flusso in una rete, che avverte l'host sorgente di ridurre il flusso di pacchetti in caso di congestione.  
+Qual è la funzione principale dello strato network? | La funzione principale dello strato network è quella d'instradare i pacchetti dal computer sorgente al computer di destinazione.  
+Cosa succede quando un router rileva congestione? | Quando un router rileva congestione, invia un choke packet all'host originale del pacchetto per avvertirlo di diminuire il flusso.  
+Come deve reagire l'host sorgente alla ricezione di un choke packet? | L'host sorgente deve diminuire il flusso di pacchetti (tipicamente dimezzarlo) e ignorare i successivi choke packet per un certo periodo di tempo.  
+Quali algoritmi di routing possono causare congestione nella rete? | Algoritmi di routing come flooding, link-state e distance vector possono causare congestione nella rete.  
+Quali sono i pregi del choke packet? | I choke packet permettono di risolvere la congestione di una linea tramite l'uso di pacchetti speciali.  
+Qual è uno dei difetti del choke packet? | Un difetto del choke packet è che è lento a reagire poiché l'host deve prima ricevere il pacchetto per poter diminuire il flusso.  
+Cosa si può migliorare con il choke packet hop-by-hop? | Il choke packet hop-by-hop rappresenta un miglioramento poiché permette una gestione più rapida della congestione, agendo in modo più efficiente.  
+In quale ambito viene utilizzato il choke packet? | Il choke packet viene utilizzato nello strato network come algoritmo di controllo della congestione.  
+Che effetti ha la congestione su una rete? | La congestione può causare la perdita di pacchetti, che porta a ritrasmissioni e ulteriori ingorghi nella rete.
+Cos'è un choke packet hop-by-hop?|È un miglioramento del choke packet originale che limita immediatamente le stazioni nel percorso senza attendere il mittente.  
+Qual è la funzione principale dello strato network?|Instradare i pacchetti dal computer sorgente al computer di destinazione.  
+Quali sono gli algoritmi di routing utilizzati nello strato network?|Flooding, link-state e distance vector.  
+Cosa causa la congestione nelle reti?|Quando più computer cercano di inviare pacchetti alla stessa destinazione, che non riesce a elaborarli tutti, causando perdite e ritrasmissioni.  
+Qual è il problema principale del choke packet originale?|Aveva un tempo di reazione troppo lento per prendere provvedimenti, causandone grossa perdita di dati.  
+Quali sono i vantaggi del choke packet hop-by-hop rispetto alla versione originale?|Fornisce sollievo più veloce alla rete.  
+Qual è uno dei difetti del choke packet hop-by-hop?|Richiede un maggiore utilizzo dei buffer di trasmissione nei router.  
+In quali ambiti viene utilizzato il choke packet hop-by-hop?|Nello strato network, come algoritmo di controllo della congestione, come miglioramento del choke packet.  
+Cos'è il load shedding? | È una tecnica utilizzata dai router per eliminare pacchetti casuali in caso di sovraffollamento per gestire la congestione della rete.  
+Qual è la funzione principale dello strato network? | Instradare i pacchetti dal computer sorgente al computer di destinazione.  
+Quali sono gli algoritmi di routing utilizzati nello strato network? | Flooding, link-state e distance vector.  
+Che cosa provoca la congestione nella rete? | L'invio simultaneo di pacchetti da parte di più computer verso la stessa destinazione che il sistema non riesce a elaborare.  
+Cosa sono i choke packet? | Tecniche utilizzate per gestire la congestione, che possono essere pure o hop-by-hop.  
+Qual è il criterio "wine" nel load shedding? | Dà più importanza ai pacchetti vecchi, scartando quelli nuovi.  
+Qual è il criterio "milk" nel load shedding? | Dà più importanza ai pacchetti nuovi, scartando quelli vecchi.  
+Qual è un pregio del load shedding? | Risolve la congestione in modo brusco quando i choke packet non sono sufficienti.  
+Qual è un difetto del load shedding? | Scarta pacchetti senza un criterio sufficientemente preciso, rischiando di eliminare pacchetti importanti.  
+In quale ambito è utilizzato il load shedding? | Nello strato network per risolvere in modo brutale la congestione delle linee.
+Cos'è RED (Random Early Detection)?|RED è un algoritmo che scarta i pacchetti prima che il buffer dei router sia completamente pieno, per gestire la congestione in modo precoce.  
+Qual è l'obiettivo principale di RED?|L'obiettivo principale di RED è ridurre la congestione nei router scartando i pacchetti prima che la situazione diventi critica.  
+Come funziona RED nel rilevamento della congestione?|RED mantiene una media mobile delle lunghezze delle code e scarta pacchetti quando la lunghezza media supera una soglia di guardia.  
+Cosa fa un router quando rileva una congestione con RED?|Quando un router rileva congestione, sceglie casualmente un pacchetto dalla coda per scartarlo.  
+Qual è un metodo alternativo di gestione della congestione rispetto a RED?|Un metodo alternativo è l'uso di choke packet, che segnala ai mittenti di diminuire il flusso di pacchetti.  
+Qual è il principale pregio di RED?|Il principale pregio di RED è la sua capacità di risolvere le congestioni prima che diventino gravi, evitando la necessità di load shedding.  
+Qual è uno dei difetti di RED?|Un difetto di RED è che non può identificare esattamente quale pacchetto ha causato il superamento della soglia di congestione.  
+In quali ambiti viene prevalentemente utilizzato RED?|RED è utilizzato prevalentemente nelle reti in cui le sorgenti rispondono alla perdita dei pacchetti rallentando il flusso.  
+Perché RED non è utilizzabile nelle reti wireless?|In reti wireless, la perdita dei pacchetti è principalmente dovuta al rumore e non si verifica un rallentamento del flusso, rendendo impraticabile l'uso di RED.
+Cos'è il Reverse Path Forwarding? | È una tecnica utilizzata dai router per determinare se un pacchetto broadcast è arrivato tramite il percorso migliore dalla sorgente, e decide se inoltrarlo agli altri router.  
+Qual è l'algoritmo di routing più comune per le trasmissioni broadcast? | L'algoritmo di routing più quotato è quello di flooding, che invia pacchetti a tutte le stazioni vicine, eccetto quella da cui ha ricevuto il pacchetto.  
+Quali sono i problemi associati al flooding? | Lo flooding può causare spreco di banda e la creazione di troppi pacchetti.  
+Come funziona il Reverse Path Forwarding? | Il router verifica se il pacchetto è arrivato tramite la linea preferita per raggiungere la sorgente; se sì, lo inoltra, altrimenti lo scarta.  
+Quali sono i vantaggi del Reverse Path Forwarding? | È facile da implementare, non richiede conoscenza della mappa della rete e previene il problema dell'IP spoofing.  
+In quale ambito viene utilizzato il Reverse Path Forwarding? | Viene utilizzato nello strato Network nei moderni router per garantire un cammino di pacchetti senza loop.  
+Cos'è il flusso di pacchetti in una rete?|Un flusso di pacchetti è un insieme di pacchetti che viaggiano da una sorgente a una destinazione secondo regole specifiche.  
+Quali sono i quattro parametri primari della Quality of Service (QoS)?|Affidabilità, ritardo, jitter e banda.  
+Cosa si intende per affidabilità nella QoS?|Affidabilità significa che nessun bit deve essere trasmesso in modo scorretto, solitamente garantito tramite checksum.  
+Quali applicazioni richiedono un'alta affidabilità?|Applicazioni come la posta elettronica e il trasferimento di file richiedono alta affidabilità.  
+Perché il ritardo è importante in alcune applicazioni?|Il ritardo è cruciale in applicazioni come telefonate e videoconferenze, dove la tempestività è essenziale.  
+Cosa descrive il jitter nella QoS?|Il jitter descrive la variazione casuale del segnale, portando a una ricezione di dati in intervalli irregolari.  
+In quali tipi di applicazioni il jitter è un problema significativo?|Il jitter è problematico in applicazioni di login remoto e streaming video.  
+Qual è l'importanza della banda nella QoS?|Ogni applicazione ha diverse esigenze di banda; ad esempio, il video richiede più banda rispetto alla posta elettronica.  
+È possibile fornire QoS in modo ottimale e sicuro?|Nessuna tecnica esistente può garantire QoS efficiente e sicura in modo ottimale.  
+Cos'è l'algoritmo Leaky Bucket? | L'algoritmo Leaky Bucket è un metodo di controllo del flusso per la trasmissione di pacchetti nella rete, che simula un "secchio che perde" dove i pacchetti vengono trasmessi a una velocità costante, limitando congestioni.  
+Qual è la funzione principale dell'algoritmo Leaky Bucket? | La funzione principale è quella di limitare la congestione nella rete accodando i pacchetti e trasmettendoli uno alla volta a intervalli regolari.  
+Quali sono i vantaggi dell'algoritmo Leaky Bucket? | I vantaggi includono la cattura di burst di dati che potrebbero congestionare la rete e la distribuzione equa del traffico.  
+Quali sono i difetti dell'algoritmo Leaky Bucket? | I difetti includono l'inefficienza nell'utilizzo delle risorse di rete quando il traffico è basso e lo scarto brutale dei pacchetti in eccesso quando la coda è piena.  
+In quale ambito viene utilizzato l'algoritmo Leaky Bucket? | Viene utilizzato nello strato Network delle reti a commutazione di pacchetto, per limitare la banda e la velocità di trasmissione dei pacchetti.  
+Come funziona l’aggiunta di pacchetti nella coda dell’algoritmo Leaky Bucket? | Se c'è spazio nella coda, il pacchetto viene aggiunto; altrimenti, viene scartato.  
+Come vengono trasmessi i pacchetti nell'algoritmo Leaky Bucket? | I pacchetti in coda vengono trasmessi uno alla volta, a intervalli di tempo costanti, come un ciclo di clock.  
+Cosa simula il Leaky Bucket in relazione alla trasmissione dei pacchetti? | Simula un secchio che perde acqua, dove la quantità di pacchetti che fluiscono è costante, indipendentemente dalla quantità che viene aggiunta.
+Cos'è l'algoritmo token bucket?|L'algoritmo token bucket è un metodo per controllare il flusso di pacchetti in una rete, aggiungendo token generati da un clock, dove un pacchetto deve "bruciare" un token per essere trasmesso.
+Qual è la principale differenza tra token bucket e leaky bucket?|La principale differenza è che il token bucket non scarta i pacchetti quando il secchio è pieno e può accumulare token per gestire burst di dati.
+Quali sono i pregi dell'algoritmo token bucket?|L'algoritmo token bucket non scarta pacchetti e gestisce meglio i burst di dati, permettendo una risposta più veloce a picchi improvvisi.
+Qual è un difetto potenziale dell'algoritmo token bucket?|Un potenziale difetto è che permette la trasmissione di grandi rafiche di dati, il che potrebbe causare congestione.
+In quale ambito viene utilizzato l'algoritmo token bucket?|L'algoritmo token bucket viene utilizzato nello strato Network per gestire il traffico in una rete dati e regolare l'output di trasmissione.
+Cos'è l'ARP?|ARP è un protocollo che permette di associare un indirizzo IP all'indirizzo Ethernet in una sottorete.  
+Qual è la funzione principale dell'ARP?|Collegare un indirizzo IP con un indirizzo Ethernet (MAC) per la trasmissione dei pacchetti.  
+Come viene trasmesso il pacchetto per l'ARP?|Viene trasmesso un pacchetto broadcast a tutte le stazioni nella sottorete.  
+Cosa fa la stazione che riceve la richiesta ARP?|Controlla il proprio indirizzo IP e risponde solo se è il proprietario dell'indirizzo richiesto, inviando il proprio indirizzo Ethernet.  
+Cosa fa il software IP dopo aver ricevuto la risposta ARP?|Costruisce un frame Ethernet indirizzato al destinatario e inserisce il pacchetto IP nel campo carico utile.  
+Come rileva il destinatario il frame Ethernet?|La scheda Ethernet del destinatario rileva il frame e si accorge di essere la stazione designata per la comunicazione.  
+Cosa succede ai dati una volta che il destinatario riceve il frame?|Preleva i dati ed estrae il pacchetto IP dal carico utile per passarlo al software IP.  
+Qual è il vantaggio dell'ARP?|La semplicità: non è necessario alcun intervento da parte del sistemista oltre all'assegnazione dell'indirizzo IP.  
+Qual è il difetto principale dell'ARP?|Non autentica le risposte, rendendolo vulnerabile a possibili attacchi.  
+In quali ambiti viene utilizzato l'ARP?|È utilizzato nel protocollo IPv4 e opera a livello di accesso alla rete.  
+Quando viene utilizzato l'ARP?|Ogni volta che un host collegato a una LAN deve inviare un messaggio a un altro host nella stessa LAN conoscendo solo l'indirizzo IP.  
+Come migliora l'ARP le prestazioni?|Memorizzando gli indirizzi associati nella cache per future trasmissioni verso la stessa stazione.
+Cos'è DHCP?|DHCP (Dynamic Host Configuration Protocol) è un protocollo che assegna indirizzi IP agli host che ne richiedono uno.
+Qual è la funzione principale del server DHCP?|Il server DHCP assegna indirizzi IP dinamicamente agli host della rete.
+Come comunica un host con il server DHCP?|Un host comunica con il server DHCP inviando un pacchetto DHCP DISCOVER in modalità broadcast.
+Cosa fa l'agente di inoltro DHCP?|L'agente di inoltro DHCP riceve il pacchetto DISCOVER e lo inoltra al server DHCP, anche se non si trova nella stessa LAN.
+Qual è la risposta del server DHCP all'host dopo un DISCOVER?|Il server DHCP risponde con un pacchetto DHCPOFFER che include un indirizzo IP assegnato.
+Cosa invia l'host dopo aver ricevuto un DHCPOFFER?|L'host invia un pacchetto DHCPREQUEST per accettare l'offerta ricevuta dal server DHCP.
+Qual è il passo finale nel processo di assegnazione di un indirizzo IP?|Il server DHCP conferma l'assegnazione dell'indirizzo IP inviando un pacchetto DHCP ACK.
+Cosa succede se ci sono più server DHCP?|L'host valuta le offerte da più server e invia un DHCPREQUEST al server selezionato.
+Da cosa proviene l'indirizzo IP assegnato?|L'indirizzo IP assegnato proviene da una pool di indirizzi IP comuni.
+Che problema può verificarsi se un host abbandona la rete senza restituire l'indirizzo IP?|L'indirizzo IP può essere perso per sempre se l'host abbandona la rete senza un meccanismo di restituzione.
+Che tecnica utilizza DHCP per assegnare indirizzi IP?|DHCP utilizza una tecnica di leasing, assegnando indirizzi con una durata definita.
+Cosa deve fare l'host prima della scadenza del leasing dell'IP?|Prima della scadenza, l'host deve richiedere un rinnovo dell'indirizzo IP.
+Qual è un pregio di DHCP?|Permette di associare indirizzi IP avendo l'indirizzo MAC di un host.
+Qual è un difetto di DHCP?|Non include meccanismi di autenticazione, rendendolo vulnerabile ad attacchi.
+In quali ambiti viene comunemente utilizzato DHCP?|DHCP è ampiamente utilizzato nelle reti odierne come protocollo di rete a livello applicativo.
+Un indirizzo IP cos'è?|Un'etichetta numerica che identifica univocamente un dispositivo collegato a una rete informatica.  
+Qual è il massimo numero di indirizzi gestibili da IPv4?|$2^{32}$ indirizzi univoci.  
+Quali tecnologie aiutano a gestire gli indirizzi IP rimanenti in IPv4?|CIDR e NAT.  
+Qual è il principale problema che IPv6 cerca di risolvere?|La scarsità di indirizzi IP.  
+Quanti indirizzi può gestire IPv6?|$2^{128}$ indirizzi diversi.  
+Quanti campi ha l'intestazione di IPv6 rispetto a IPv4?|IPv6 ha 8 campi, mentre IPv4 ne ha 13.  
+Perché IPv6 consente una migliore elaborazione dei pacchetti?|Perché semplifica l'intestazione, riducendo il numero di campi.  
+Cosa migliora IPv6 riguardo alle opzioni nei pacchetti?|Rende campi precedentemente obbligatori opzionali.  
+Qual è un importante vantaggio di IPv6 in termini di sicurezza?|Migliora la sicurezza rispetto a IPv4.  
+IPv6 è compatibile con IPv4?|No, IPv6 e IPv4 non sono compatibili tra loro.  
+Con quali protocolli è compatibile IPv6?|TCP, UDP, ICMP, tra gli altri.  
+Perché la transizione da IPv4 a IPv6 è lenta?|Perché la rete è ancora basata su IPv4 e richiede tempo per adattarsi.  
+Qual è uno dei principali pregi di IPv6?|Aumenta significativamente il numero di indirizzi gestibili.  
+Qual è uno dei difetti di IPv6?|Non è compatibile con il protocollo IPv4.  
+Qual è l'ambito principale d'uso di IPv6?|Protocollo di rete per gli indirizzi di rete.
+Domande e Risposte|  
+Qual è l'indirizzo IP e a cosa serve?|Un indirizzo IP è un'etichetta numerica che identifica univocamente un dispositivo collegato a una rete informatica che utilizza il protocollo Internet.
+Cosa caratterizza il protocollo IPv4?|IPv4 è il protocollo più usato che supporta al massimo 2^32 indirizzi univoci e ha un'intestazione di lunghezza fissa di 20 byte.
+Quali sono i primi 32 bit dell'header IPv4?|I primi 32 bit dell'header IPv4 includono Version, Internet Header Length (IHL), Type of Service (TOS) e Total Length.
+Qual è il valore del campo Version nell'header IPv4?|Il campo Version nell'header IPv4 ha valore 4.
+Cosa indica il campo Internet Header Length (IHL) nell'header IPv4?|Il campo IHL indica la lunghezza (in word da 32 bit) dell'header del pacchetto IP.
+A cosa serve il campo Type of Service (TOS) nell'header IPv4?|Il campo TOS specifica come l'host ricevente deve trattare il datagramma, come latenza o affidabilità.
+Cosa rappresenta il campo Total Length nell'header IPv4?|Il campo Total Length indica la dimensione totale del pacchetto, inclusi header e dati.
+Quali sono i secondi 32 bit dell'header IPv4?|I secondi 32 bit dell'header IPv4 includono Identification, Flags e Fragment Offset.
+A cosa serve il campo Identification nell'header IPv4?|Il campo Identification serve per identificare in modo univoco i vari frammenti di un pacchetto IP.
+Qual è la funzione dei Flags nell'header IPv4?|I Flags indicano il controllo del protocollo e la frammentazione dei datagrammi, come DF (Don't Fragment) e MF (More Fragments).
+Che cosa indica il Fragment Offset nell'header IPv4?|Il Fragment Offset indica l'offset di un particolare frammento relativamente all'inizio del pacchetto IP originale.
+Cosa caratterizza il protocollo IPv6?|IPv6 è l'evoluzione di IPv4 che supporta al massimo 2^128 indirizzi univoci e ha un'intestazione di 40 byte.
+Quali sono i primi 32 bit dell'header IPv6?|I primi 32 bit dell'header IPv6 includono Version, Traffic Class e Flow Label.
+Qual è il valore del campo Version nell'header IPv6?|Il campo Version nell'header IPv6 ha valore 6.
+A cosa serve il campo Traffic Class nell'header IPv6?|Il campo Traffic Class gestisce le code di priorità, assegnando una classe di priorità ad ogni pacchetto.
+Cosa indica il Flow Label nell'header IPv6?|Il Flow Label è usato per etichettare una sequenza di pacchetti come appartenenti allo stesso flusso.
+Quali sono i secondi 32 bit dell'header IPv6?|I secondi 32 bit dell'header IPv6 includono Payload Length, Next Header e Hop Limit.
+Cosa indica il Payload Length nell'header IPv6?|Il Payload Length indica la dimensione del payload, ovvero il numero di byte del contenuto dopo l'header.
+A cosa serve il campo Next Header nell'header IPv6?|Il campo Next Header indica quale tipo di processo di trasporto (UDP, TCP o altri) è atteso dai dati.
+Cosa rappresenta il campo Hop Limit nell'header IPv6?|Il campo Hop Limit indica il tempo di vita del pacchetto, decrementando di 1 ogni volta che il pacchetto passa da un router.
+Cos'è un frame Ethernet?|Un frame Ethernet è l'unità trasportata nel livello Data Link.
+Qual è la grandezza di un frame Ethernet?|Un frame Ethernet ha una grandezza compresa tra 64 e 1518 byte.
+Quali sono i componenti di un frame Ethernet?|I componenti sono: preambolo, SFD, MAC address di destinazione, MAC address sorgente, type, dati, pad e checksum.
+A cosa serve il preambolo in un frame Ethernet?|Serve per sincronizzare il clock del ricevitore con quello del trasmettitore.
+Cosa indica l'SFD in un frame Ethernet?|L'SFD indica al destinatario che dal prossimo byte comincerà il frame vero e proprio.
+Cosa rappresenta il MAC address di destinazione in un frame Ethernet?|Indica l'indirizzo di destinazione del frame.
+Cosa rappresenta il bit di ordine più elevato nel MAC address di destinazione?|Vale “0” per gli indirizzi ordinari e “1” per quelli di gruppo.
+Cosa è una trasmissione multicast?|Una trasmissione multicast è quando un frame è inviato a un gruppo specifico di destinatari.
+Come si fa una trasmissione broadcast in un frame Ethernet?|Si mettono tutti i bit del MAC address a “1”.
+Cosa rappresenta il MAC address sorgente in un frame Ethernet?|Indica l'indirizzo sorgente del frame.
+A cosa serve il campo Type in un frame Ethernet?|Indica al ricevitore quale protocollo deve gestire il frame.
+Qual è la dimensione minima dei dati in un frame Ethernet?|La parte occupata dai dati deve essere lunga almeno 46 byte.
+Cosa fa il campo Pad in un frame Ethernet?|Riempie i byte mancanti se i dati sono inferiori a 46 byte, per rispettare la lunghezza minima del frame.
+Che cosa contiene il checksum in un frame Ethernet?|Contiene un codice CRC per il rilevamento degli errori (senza correzione).
+Cos'è l'header UDP?|L'header UDP è composto da 4 campi principali: source port, destination port, length e checksum.
+Qual è la funzione del campo "Source port" nell'header UDP?|Identifica il numero di porta sull'host del mittente del datagramma.
+Qual è la funzione del campo "Destination port" nell'header UDP?|Identifica il numero di porta sull'host del destinatario del datagramma.
+Cosa rappresenta il campo "Length" nell'header UDP?|Contiene la lunghezza totale (in byte) del datagramma UDP, incluindo header e dati.
+A cosa serve il campo "Checksum" nell'header UDP?|Contiene il codice di controllo del datagramma, utilizzato per verificare l'integrità dei dati.
+Qual è un pregio principale di UDP?|È rapido ed efficiente per applicazioni leggere che richiedono velocità di trasmissione.
+Qual è un difetto principale di UDP?|Non gestisce il riordinamento dei pacchetti né la ritrasmissione di quelli persi.
+In quali ambiti viene comunemente utilizzato UDP?|Nel broadcasting, multicast e in applicazioni che sono elastiche riguardo alla perdita di dati e dipendono dal tempo.
+Cos'è l'header TCP? | L'header TCP è una struttura dati che contiene informazioni necessarie per la gestione della connessione TCP tra un mittente e un destinatario, come porte, numeri di sequenza e flag di controllo.  
+Qual è la funzione principale di TCP? | TCP fornisce un trasporto affidabile dei dati tra host attraverso meccanismi di acknowledgment e ritrasmissione.  
+Qual è la differenza principale tra TCP e UDP? | TCP è orientato alla connessione e garantisce la consegna dei dati, mentre UDP è senza connessione e non garantisce la consegna.  
+Cosa rappresenta il campo "Source port" nell'header TCP? | Il campo "Source port" identifica il numero di porta sull'host mittente associato alla connessione TCP.  
+Cosa rappresenta il campo "Destination port" nell'header TCP? | Il campo "Destination port" identifica il numero di porta sull'host destinatario della connessione TCP.  
+Qual è il significato di "Sequence number" nell'header TCP? | Il "Sequence number" indica l'offset (in byte) dell'inizio del segmento TCP nel flusso completo, partendo dall'ISN (Initial Sequence Number).  
+Quando è significativo il "Acknowledgment number" nell'header TCP? | Il "Acknowledgment number" è significativo solo se il flag ACK è impostato a "1" e conferma la ricezione di dati precedenti.  
+Cosa indica il "Data offset" nell'header TCP? | Il "Data offset" indica la lunghezza (in parole da 32 bit) dell'header TCP, variando a seconda delle opzioni incluse.  
+Qual è la funzione della finestra (Window size) nell'header TCP? | La "Window size" indica la dimensione della finestra di ricezione dell'host mittente, che determina quanti byte può accettare.  
+Cosa indica il campo "Checksum" nell'header TCP? | Il "Checksum" è un campo di controllo per verificare la validità del segmento TCP; un valore corretto dovrebbe risultare in 0 al ricevimento.  
+Qual è la funzione del campo "Urgent pointer" nell'header TCP? | L'"Urgent pointer" indica la posizione del dato urgente nel flusso e ha senso solo se il flag URG è attivo.  
+Quali sono i principali vantaggi di TCP? | I principali vantaggi di TCP includono funzionalità di controllo di flusso e congestione, garantendo una trasmissione affidabile dei pacchetti.  
+Qual è uno dei difetti principali di TCP? | Uno dei difetti principali di TCP è il suo alto overhead, che può causare uno spreco di banda in applicazioni che non richiedono tutte le sue funzionalità.  
+In quali ambiti viene comunemente utilizzato TCP? | TCP è comunemente usato nelle applicazioni internet che richiedono una consegna affidabile di pacchetti, come il web e l'e-mail.
+Cos'è il DNS?|Il DNS (Domain Name System) è un protocollo dello strato applicativo per la risoluzione di nomi di host in indirizzi IP.  
+Qual è l'essenza del DNS?|L'essenza del DNS è uno schema di denominazione gerarchico basato su dominio e un sistema di database distribuito per implementarlo.  
+Come funziona il risolutore DNS?|Il risolutore DNS invia un pacchetto UDP a un server DNS locale, che cerca il nome e restituisce l'indirizzo IP al risolutore.  
+Perché il DNS è utile per gli utenti non tecnici?|Il DNS permette di associare nomi testuali facili da ricordare a indirizzi IP numerici, rendendo l'uso di Internet più accessibile.  
+È possibile associare più nomi a un solo indirizzo IP?|Sì, è possibile attribuire più nomi allo stesso indirizzo IP per rappresentare diversi servizi forniti dallo stesso host.  
+Cosa rappresenta "www" in un indirizzo come www.ciaofede.it?|"www" rappresenta il dominio di terzo livello che identifica un particolare host all'interno del dominio ciaofede.it.  
+Cosa indica il dominio di primo livello in un URL?|Il dominio di primo livello indica l'estensione del dominio, come .it, .com, ecc.  
+Quali sono i pregi del DNS?|Il DNS garantisce una maggiore facilità d'uso e chiarezza per l'utente medio.  
+Qual è un difetto del DNS?|--  
+In quali ambiti viene utilizzato il DNS?|Il DNS è utilizzato nello strato applicativo per la risoluzione di nomi di rete ed è comune nei web server per ospitare più siti web su un singolo indirizzo IP.
+Cos'è un cifrario a sostituzione?|Un cifrario a sostituzione è una tecnica di crittografia che consiste nella sostituzione delle singole lettere dell'alfabeto con altre, mantenendo invariato l'ordine delle lettere.
+Cos'è un cifrario a trasposizione?|Un cifrario a trasposizione è una tecnica di crittografia che riordina le lettere di un messaggio senza mascherarle, cambiando la loro posizione all'interno del testo.
+Qual è un esempio di cifrario a sostituzione?|Un esempio di cifrario a sostituzione è il cifrario di Cesare, che sposta ogni lettera di un certo numero di posizioni nell'alfabeto.
+Qual è la vulnerabilità principale del cifrario a sostituzione?|La vulnerabilità principale del cifrario a sostituzione è che può essere decifrato facilmente utilizzando l'analisi statistica delle lettere nel linguaggio naturale.
+Come funziona la trasposizione colonnare? |La trasposizione colonnare utilizza una parola chiave per numerare le colonne in ordine alfabetico, quindi il testo viene disposto nelle colonne e riordinato in base alla parola chiave.
+Qual è la vulnerabilità principale del cifrario a trasposizione? |Il cifrario a trasposizione è vulnerabile perché si può tentare di indovinare il numero di colonne o riconoscere parole all'interno del testo mescolato.
+Qual è la principale differenza tra cifrario a sostituzione e cifrario a trasposizione? |La principale differenza è che nel cifrario a sostituzione l'ordine delle lettere rimane invariato, mentre nel cifrario a trasposizione l'ordine delle lettere viene cambiato.
+Cos'è un block cipher?|Un block cipher è un algoritmo a chiave simmetrica che opera su un gruppo di bit di lunghezza finita organizzati in un blocco.  
+Quali sono le due parti principali di un block cipher?|Le due parti principali sono la parte che cifra (E) e la parte che decifra (E1).  
+Come funziona la P-box?|La P-box trasforma l'input di 8 bit in un output di 8 bit tramite una trasposizione, senza effettuare calcoli.  
+A cosa serve la chiave di cifratura nella P-box?|La chiave di cifratura serve a determinare la disposizione dei collegamenti interni della P-box.  
+Che cosa fa la S-box?|La S-box sostituisce e mescola il numero di bit del messaggio, trasformando l'input di 8 bit in un output di 3 bit permutati.  
+Qual è la funzione della S-box nella decrittazione?|La S-box viene utilizzata per decifrare il messaggio e tornare agli 8 bit originali.  
+Quali sono i vantaggi dell'uso combinato di P-box e S-box?|Combinati, P-box e S-box creano un sistema crittografico molto performante.  
+Qual è uno dei principali difetti della S-box?|La S-box è molto vulnerabile agli attacchi basati sul tempo.  
+In quali ambiti vengono utilizzati i block cipher?|I block cipher vengono utilizzati in crittografia per cifrare blocchi di dati.  
+Come si differenziano i block cipher dagli algoritmi di flusso?|I block cipher cifrano blocchi di dati, mentre gli algoritmi di flusso cifrano un solo elemento alla volta.  
+Cos'è l'algoritmo DES?|DES (Data Encryption Standard) è un algoritmo di cifratura a chiave simmetrica con chiave di 64 bit, scelto come standard dal governo degli Stati Uniti e divenuto internazionale.  
+Qual è la lunghezza della chiave nel DES?|La chiave nel DES è di 64 bit, di cui 56 bit sono utili e 8 bit sono di controllo.  
+Come funziona DES?|DES è un cifrario a blocchi che utilizza 19 stadi distinti per cifrare un testo di lunghezza fissa.  
+Qual è il compito del primo e dell'ultimo stadio di DES?|Il primo stadio trasponde i 64 bit di testo in chiaro, mentre l'ultimo stadio opera l'inverso.  
+Cosa fa il penultimo stadio di DES?|Il penultimo stadio scambia i 32 bit più a sinistra con i 32 bit più a destra.  
+Quanti stadi identici ci sono in DES e da cosa sono differenziati?|Ci sono 16 stadi identici in DES, ciascuno parametrizzato da funzioni diverse della chiave.  
+Cos'è il Triplo-DES?|Il Triplo-DES è un metodo che utilizza due chiavi e tre stadi, migliorando la sicurezza rispetto al DES.  
+Come funziona il processo di cifratura nel Triplo-DES?|Nel Triplo-DES, il testo è cifrato con K1, poi decifrato con K2 e infine cifrato di nuovo con K1, seguendo il metodo Encrypt Decrypt Encrypt (EDE).  
+Qual è il vantaggio dell'EDE nel Triplo-DES?|L'EDE è compatibile con i computer che usano la cifratura singola, impostando K1 = K2.  
+Cosa ha sostituito AES?|AES (Advanced Encryption Standard) ha sostituito sia DES che Triplo-DES.  
+Quali sono i pregi del DES e del Triplo-DES?|Permettono una cifratura a blocchi, Triplo-DES migliora la sicurezza del DES ed è compatibile con DES.  
+Quali sono i difetti del DES e del Triplo-DES?|La chiave di 64 bit è poco sicura, entrambi producono sempre lo stesso testo cifrato per lo stesso testo in chiaro e soffrono di prestazioni software.  
+Qual è la situazione attuale d'uso di DES e Triplo-DES?|Entrambi gli algoritmi stanno cadendo in disuso a causa delle scarse prestazioni e sono stati sostituiti da AES.
+Cosa rende difficile l'accesso casuale ai dati nelle tecniche di cifratura tradizionali?|Il problema principale è che necessitano di decifrare i blocchi precedenti, rendendo impossibile l'accesso ai dati in modo non sequenziale.  
+Cos'è la modalità contatore (Counter Mode)?|È una tecnica di cifratura in cui si cifra un vettore d'inizializzazione (IV) combinato con una costante, e il risultato viene usato in XOR con il testo in chiaro.  
+Come permette la modalità contatore di decifrare blocchi di dati?|Incrementando il vettore d'inizializzazione ad ogni blocco, consente di decifrare un blocco in qualunque posizione senza la necessità di decifrare quelli precedenti.  
+Qual è un pregio della modalità contatore?|Consente la decifratura di blocchi di dati in ordine non sequenziale, rendendo più efficiente l'accesso ai dati.  
+Qual è un difetto della modalità contatore?|Se si usano la stessa chiave e lo stesso IV per messaggi diversi, si può compromettere la sicurezza facendo XOR dei due messaggi.  
+In quali ambiti viene utilizzata la modalità contatore?|È utilizzata nella cifratura come alternativa ad algoritmi che dipendono dai blocchi precedenti, utile per ricerche non sequenziali.  
+Cos'è il Cipher Block Chaining (CBC)?| è una tecnica di cifratura che collega insieme i blocchi cifrati in modo da evitare la generazione di blocchi identici per testi in chiaro uguali.  
+Qual è il principale vantaggio del Cipher Block Chaining? | Migliora la sicurezza rispetto ai cifrari che utilizzano sempre la stessa chiave, rendendo i blocchi cifrati diversi anche per testi in chiaro identici.  
+Qual è il difetto principale del Cipher Block Chaining? | Per decrittare un blocco di testo cifrato, è necessario decrittare anche tutti i blocchi precedenti.  
+Come funziona il Cipher Block Chaining? | Ogni blocco di testo in chiaro è combinato con il blocco cifrato precedente usando l'operazione XOR prima di essere cifrato.  
+Cosa viene utilizzato per il primo blocco nel Cipher Block Chaining? | Un vettore di inizializzazione (IV) casuale, che è trasmesso in chiaro insieme al testo cifrato.  
+In quali ambiti viene usato il Cipher Block Chaining? | Viene utilizzato nella cifratura quando è necessario un livello di sicurezza maggiore rispetto agli algoritmi standard come AES.  
+Che problemi risolve il Cipher Block Chaining rispetto a DES e Triple DES? | Risolve il problema di generare sempre blocchi cifrati identici per testi in chiaro uguali.  
+Qual è l'effetto del Cipher Block Chaining sulla criptoanalisi? | Rende la criptoanalisi più difficile, aumentando la sicurezza rispetto a metodi non collegati.  
+Cosa succede se si cifra lo stesso blocco di testo in chiaro usando CBC? | Si ottiene un blocco di testo cifrato diverso, poiché dipende dal blocco cifrato precedente.  
+Qual è un'alternativa al Cipher Block Chaining per migliorare la decrittazione? | Il counter mode cipher, che permette di decrittare un blocco in maniera casuale senza dover decrittare tutti i blocchi precedenti.
+Cos'è un cifrario di flusso?|Un cifrario di flusso è una variante dei cifrari a blocchi che utilizza un vettore di inizializzazione (IV) e una chiave per generare un keystream utilizzato per cifrare il testo in chiaro.  
+Come viene generato il keystream nel cifrario di flusso?|Il keystream viene generato combinando un vettore di inizializzazione (IV) e una chiave, cifrati insieme.  
+Qual è il metodo di cifratura usato nel cifrario di flusso?|Il cifrario di flusso utilizza l'operazione XOR tra il keystream e il testo in chiaro per la cifratura.  
+Come avviene la decrittazione in un cifrario di flusso?|La decrittazione avviene generando lo stesso keystream dal lato del ricevente e applicando successivamente l'operazione XOR con il testo cifrato.  
+Qual è il vantaggio principale di utilizzare un cifrario di flusso?|Un vantaggio principale è l'alta elasticità agli errori, poiché il keystream non dipende dai dati.  
+Qual è uno dei difetti dei cifrari di flusso?|Il rischio di riutilizzo del keystream, che può compromettere la sicurezza, è uno dei principali difetti.  
+Per quali applicazioni è consigliato usare un cifrario di flusso?|I cifrari di flusso sono consigliati per cifrare dati in applicazioni dove è fondamentale che un singolo bit di errore non influisca su un intero blocco di dati.  
+Cosa può succedere se si riutilizza un IV e una chiave nel cifrario di flusso?|Se si riutilizza un IV e una chiave, si potrebbe generare lo stesso keystream più volte, causando seri problemi di sicurezza.  
+Quale problema aveva il cipher block chaining che il cifrario di flusso evita?|Il cipher block chaining soffriva del problema che un errore nel testo in chiaro si propagate su più blocchi, mentre il cifrario di flusso limita l'impatto di un singolo errore.  
+Cosa ha portato alla creazione del sistema RSA?|La necessità di un sistema di crittografia che risolvesse il problema della distribuzione delle chiavi.  
+Qual è la differenza principale tra chiavi simmetriche e chiavi asimmetriche?|Le chiavi simmetriche usano la stessa chiave per cifrare e decifrare, mentre le chiavi asimmetriche usano una chiave pubblica per cifrare e una chiave privata per decifrare.  
+Cosa rappresentano le chiavi pubbliche e private nel sistema RSA?|La chiave pubblica può essere condivisa con chiunque per cifrare messaggi, mentre la chiave privata deve rimanere segreta al proprietario per decifrare i messaggi.  
+Qual è l'obiettivo principale dell'algoritmo RSA?|Generare chiavi in modo sicuro e rendere impossibile dedurle tramite calcoli.  
+Quali sono i vantaggi principali dell'algoritmo RSA?|È un algoritmo molto robusto che permette lo scambio di chiavi con una sicurezza quasi assoluta.  
+Qual è la principale vulnerabilità del sistema RSA?|La difficoltà di scomporre in fattori numeri molto grandi.  
+Qual è la lunghezza minima raccomandata per le chiavi RSA?|Almeno 1024 bit.  
+Perché l'algoritmo RSA è considerato lento?|Perché richiede chiavi di almeno 1024 bit, rendendo le operazioni di cifratura e decifratura più lente rispetto agli algoritmi a chiave simmetrica.  
+Quali sono i passi fondamentali per generare le chiavi nel sistema RSA?|Scegliere due numeri primi p e q, calcolare n=p*q e z=(p-1)*(q-1), scegliere un numero primo d relativamente a z, e trovare e tale che e*d=1 mod z.  
+Come viene cifrato un messaggio in RSA?|Il messaggio P viene cifrato con la formula C=P^e (mod n).  
+Come viene decifrato un messaggio in RSA?|Il messaggio cifrato C viene decifrato con la formula P=C^d.  
+Qual è la composizione della chiave pubblica in RSA?|La chiave pubblica consiste nella coppia (e,n).  
+Qual è la composizione della chiave privata in RSA?|La chiave privata consiste nella coppia (d,n).  
+In quali ambiti viene comunemente utilizzato RSA?|Per lo scambio dati con persone sconosciute.
+Cos'è il birthday attack?|Il birthday attack è una tecnica che dimostra che per forzare una funzione di hash MD di m bit bastano $2^{m/2}$ operazioni.  
+Qual è il concetto alla base del birthday attack?|Il concetto si basa sulla probabilità di trovare due input diversi che producono lo stesso output, simile al fenomeno del compleanno.  
+Quante coppie di studenti sono necessarie per una probabilità superiore al 50% che due condividano lo stesso compleanno?|Sono necessarie 23 persone in una stanza.  
+Qual è la formula per calcolare il numero di coppie possibili di input?|Il numero di coppie è dato da n(n-1)/2, dove n è il numero di input.  
+Quando si può alzare la probabilità di avere due output uguali?|Quando n(n-1)/2 è maggiore di k, quanti output possibili ci sono, la probabilità di trovare coppie con lo stesso output aumenta.  
+Quale è la condizione necessaria per trovare due output uguali?|La condizione è che n debba essere maggiore di $\sqrt{k}$.  
+Per quanto riguarda un MD di 64 bit, quante operazioni sono necessarie?|Per forzare un MD di 64 bit, servono circa 232 messaggi per avere una buona probabilità di trovare due messaggi con lo stesso MD.  
+Quali sono le quattro proprietà fondamentali della funzione di hash MD?|1) Facile calcolo di MD(P), 2) Difficile trovare P da MD(P), 3) Difficile trovare P' tale che MD(P')=MD(P), 4) Cambiamenti di 1 bit in input cambiano completamente l'output.  
+Perché le firme digitali sono importanti?|Le firme digitali garantiscono l'autenticità di documenti legali e finanziari attraverso protocolli crittografici.  
+Cosa rappresenta "MD" nel contesto delle firme digitali?|MD sta per "message digest", ovvero una funzione di hash utilizzata per generare firme digitali.  
+Cos'è lo standard 802.11? | È uno standard di trasmissione per le reti WLAN (Wireless LAN) e include un protocollo chiamato WEP per la sicurezza.  
+Come funziona WEP? | WEP utilizza un algoritmo di cifratura RC4 e un controllo di integrità CRC-32 per cifrare i dati.  
+Qual è il metodo di cifratura usato in WEP? | Utilizza uno stream cipher a chiave simmetrica basato sull'algoritmo RC4.  
+Come viene garantita l'integrità dei dati in WEP? | Utilizzando un checksum calcolato con CRC-32.  
+Cosa è un vettore di inizializzazione (IV) in WEP? | È un valore che deve essere cambiato ad ogni invio per generare un keystream sicuro.  
+Qual è il rischio associato al riutilizzo dell'IV in WEP? | Può portare al riutilizzo del keystream, aumentando il rischio di letture indesiderate.  
+Quali sono i passaggi per cifrare un payload in WEP? | 1. Calcolo del checksum. 2. Aggiunta del checksum al payload. 3. Applicazione di XOR tra il testo in chiaro e il keystream.  
+Cosa succede quando il destinatario riceve il pacchetto in WEP? | Estrae il payload cifrato, genera il keystream e verifica il checksum.  
+Quali sono i pregi principali di WEP? | Provvede una sicurezza basilare per le reti wireless.  
+Qual è il difetto principale di WEP? | Non è affidabile a causa della ripetizione dell'IV.  
+Quali sistemi hanno sostituito WEP? | Sistemi di sicurezza wireless più avanzati e sicuri.  
+In quali ambiti è ancora utilizzato WEP? | È considerato obsoleto e sostituito da sistemi più sicuri.
+Quali sono le modalità di sicurezza offerte da Bluetooth? | Bluetooth offre tre modalità di sicurezza, che variano da nessuna sicurezza a una completa sicurezza dei dati e controllo dell'integrità.  
+Qual è la principale vulnerabilità della sicurezza Bluetooth? | Bluetooth autentica solo i dispositivi e non gli utenti, quindi il furto di un dispositivo consente l'accesso ai dati del proprietario precedente.  
+Come viene avviato il processo di sicurezza in Bluetooth? | Il processo di sicurezza in Bluetooth inizia quando un dispositivo slave chiede un canale al master attraverso una passkey.  
+Quali meccanismi di cifratura utilizza Bluetooth? | Bluetooth utilizza uno stream cipher per la cifratura e Safer+ per il controllo d'integrità.  
+Quali sono i pregi della sicurezza Bluetooth? | I pregi includono diverse modalità di sicurezza e l'implementazione della sicurezza in vari strati per mantenerla alta.  
+Quali difetti presenta il sistema di sicurezza di Bluetooth? | Un difetto è che non protegge in caso di furto del dispositivo, poiché i dati rimangono accessibili al nuovo proprietario.  
+In quali ambiti viene comunemente utilizzato Bluetooth? | Bluetooth è utilizzato principalmente per le connessioni senza fili tra dispositivi.  
+Quanto è il raggio d'azione di Bluetooth rispetto a 802.11? | Bluetooth ha un raggio d'azione considerevolmente minore rispetto a 802.11.  
+Cosa accade se il master e lo slave conoscono la stessa passkey? | Se entrambi conoscono la passkey, negoziano se il canale deve essere cifrato e/o se è necessario il controllo di integrità.  
+Come viene generalmente configurata la sicurezza Bluetooth? | Generalmente, la sicurezza Bluetooth è tenuta disabilitata.  
+Cos'è un reflection attack?|È una tipologia di attacco informatico che sfrutta falle nei protocolli di autenticazione per simulare diverse entità.  
+Quali sono i due interlocutori necessari per un reflection attack?|A e B, dove A è la vittima e B è il malintenzionato.  
+Cosa fa il malintenzionato (C) in un reflection attack?|C simula l'identità di A per ingannare B e potenzialmente ottenere accesso alle informazioni private di A.  
+Qual è un esempio pratico di un reflection attack?|Se B è una banca, C che finge di essere A potrebbe accedere liberamente ai soldi di A.  
+Qual è la prima regola per evitare un reflection attack?|Chi inizia l'autenticazione deve provare la propria identità prima di chi risponde.  
+Qual è la seconda regola per un protocollo di autenticazione sicuro?|Entrambi gli interlocutori devono utilizzare chiavi differenti per provare la propria identità.  
+Qual è la terza regola per prevenire un reflection attack?|Gli interlocutori devono usare numeri presi da insiemi diversi per le richieste.  
+Qual è la quarta regola per rendere un protocollo resistente agli attacchi?|Il protocollo deve essere resistente a attacchi che coinvolgono una seconda sessione parallela.  
+Cosa succede se una sola delle regole per l'autenticazione viene meno?|Il protocollo può essere forzato.  
+Cos'è un replay attack? | Un replay attack è un attacco informatico che sfrutta le falle nei protocolli di autenticazione per simulare identità e rubare dati.  
+Qual è la differenza principale tra un replay attack e un attacco Man-in-the-middle? | La differenza principale è che nel replay attack l'azione fraudolenta può avvenire anche a distanza di giorni, mentre nel MITM le operazioni avvengono in tempo reale.  
+Qual è un esempio pratico di un replay attack? | Un esempio è quando A invia una richiesta di bonifico alla banca B, C intercetta e salva i messaggi, e successivamente li rispedisce a B per farli eseguire.  
+Qual è un metodo per prevenire i replay attack? | Un metodo è inserire un timestamp nei messaggi per evitare la ritrasmissione futura.  
+Qual è un problema associato all'uso dei timestamp per prevenire replay attack? | Il problema è che qualsiasi finestra temporale utilizzata per la validità dei messaggi può essere sfruttata da un attaccante.  
+Cosa sono i nonce e come possono aiutare a prevenire i replay attack? | I nonce sono numeri casuali con utilizzo unico inseriti nei messaggi per scartare quelli con lo stesso nonce.  
+Qual è una vulnerabilità associata all'uso dei nonce? | I nonce devono essere ricordati per sempre; in caso di perdita, il sistema diventa vulnerabile ad attacchi.
+Cos'è l'algoritmo Diffie-Hellman?|È un protocollo crittografico che consente a due entità di stabilire una chiave condivisa e segreta tramite un canale pubblico senza scambiarsi informazioni precedenti.  
+Quali numeri devono concordare A e B nel Diffie-Hellman?|A e B devono concordare su due numeri grandi, n e g, dove n e (n-1)/2 sono primi.  
+Chi invia per primo un messaggio in un scambio Diffie-Hellman?|A invia per primo a B un messaggio contenente (n, g, g^x mod n).  
+Come ottiene A la chiave segreta condivisa?|A eleva il numero ricevuto da B a x, quindi calcola (g^y mod n)^x mod n.  
+Come ottiene B la chiave segreta condivisa?|B eleva il numero ricevuto da A a y, quindi calcola (g^x mod n)^y mod n.  
+Cosa condividono A e B alla fine del processo?|A e B ottengono come chiave segreta condivisa g^(xy) mod n.  
+Qual è un possibile attacco contro l'algoritmo Diffie-Hellman?|L'algoritmo è vulnerabile agli attacchi "man-in-the-middle".  
+Quali sono i pregi dell'algoritmo Diffie-Hellman?|Scambio di chiavi sicuro anche su un canale di comunicazione pubblico.  
+In quali ambiti viene utilizzato l'algoritmo Diffie-Hellman?|È usato in numerosi protocolli per comunicazioni sicure, come in TCP/IP.  
+Qual è il problema principale dell'algoritmo Diffie-Hellman?|B non può verificare che A sia l'effettivo mittente del messaggio iniziale.  
+Cos'è un attacco Man-in-the-middle?|L'attacco Man-in-the-middle è un attacco crittografico in cui l'attaccante riesce a leggere, inserire o modificare i messaggi tra due interlocutori senza che nessuno dei due lo sospetti.  
+Qual è il primo passo in un attacco Man-in-the-middle?|L'attaccante deve frapporsi tra le due parti e intercettare i messaggi.  
+Come funziona un attacco Man-in-the-middle? |L'attaccante intercetta la chiave pubblica di B e la sostituisce con la propria, portando A a cifrare i messaggi con la chiave sbagliata.  
+Cosa accade dopo che A cifra i messaggi?|A invia i messaggi cifrati a B, ma i messaggi vengono intercettati e potenzialmente modificati dall'attaccante.  
+Come può un attaccante modificare i messaggi?|L'attaccante può decifrare i messaggi, modificarli e poi cifrarli nuovamente con la chiave pubblica originale di B prima di inoltrarli a B.  
+Qual è la conseguenza finale di un attacco Man-in-the-middle?|B riceve messaggi che crede provengano da A, ma in realtà sono stati manipolati dall'attaccante.  
+Qual è una strategia per evitare attacchi Man-in-the-middle?|Creare un canale di comunicazione secondario, aggiuntivo e sicuro tra i due interlocutori.  
+Quali conversazioni sono vulnerabili a questo tipo di attacco?|Qualsiasi conversazione che utilizza chiave pubblica è potenzialmente vulnerabile a un attacco Man-in-the-middle.
+Cos'è il DNS spoofing?|Il DNS spoofing è una tipologia di attacco crittografico che devìa i pacchetti di comunicazione tra due host verso un attaccante, che finge di essere il mittente o il destinatario reale.  
+Qual è il compito del protocollo DNS?|Il protocollo DNS trasforma un indirizzo letterale (es. www.fedesimpy.it) in un indirizzo numerico o IP (es. 202.159.222.222).  
+Come si svolge un attacco di DNS spoofing?|La vittima fa una DNS Query, l'attaccante intercetta la richiesta e risponde con una risposta falsa, modificando la corrispondenza tra indirizzo IP e nome del sito.  
+Qual è l'obiettivo principale del DNS spoofing?|Modificare la corrispondenza tra indirizzo IP e nome del sito contenuti nelle risposte DNS.  
+Qual è una possibile soluzione per rilevare un attacco di DNS spoofing?|Individuare possibili risposte multiple durante le query DNS e usare protocolli alternativi per evitare la manomissione.  
+In quale categoria più ampia rientra il DNS spoofing?|Il DNS spoofing rientra nella categoria più ampia degli attacchi man-in-the-middle.  
+Cosa può fare un attaccante durante un attacco di DNS spoofing?|Un attaccante può leggere, inserire o modificare i dati presenti nella comunicazione tra due host.
+Cos'è CIDR? | CIDR sta per Classless Inter-Domain Routing, ed è una soluzione per rallentare l'esaurimento degli indirizzi IP utilizzando indirizzi in blocchi di dimensioni variabili, senza considerare le classi.
+Perché è stato sviluppato CIDR? | È stato sviluppato a causa dell'esaurimento degli indirizzi IP causato dalla suddivisione in classi fisse (classi A, B, C) che portava allo spreco di milioni di indirizzi.
+Come funziona CIDR? | CIDR consente di assegnare un pool di indirizzi IP in base alle esigenze, ad esempio, se sono necessari 4000 indirizzi, può essere rilasciato un blocco di 4096 indirizzi.
+Qual è il problema principale associato a CIDR? | La complicazione delle tabelle di routing, poiché ogni voce nella tabella di routing è estesa a una maschera di 32 bit, rendendo la ricerca più complessa.
+Quali sono i vantaggi di CIDR? | Consente una gestione più efficiente degli indirizzi IP, riducendo gli sprechi di indirizzi.
+Quali sono gli svantaggi di CIDR? | Complica le tabelle di routing, complicando la ricerca degli indirizzi all'interno della rete.
+In quali ambiti viene utilizzato CIDR? | È usato nella suddivisione e gestione degli indirizzi IP senza generare sprechi.
+Cos'è la NAT?|La NAT (Network Address Translation) è una tecnica utilizzata per risolvere il problema dello scarseggiamento degli indirizzi IPv4, permettendo a più dispositivi di condividere un unico indirizzo IP pubblico.  
+Perché è stata introdotta la NAT?|La NAT è stata introdotta per contrastare il problema dell'esaurimento degli indirizzi IP, consentendo a molteplici utenti di utilizzare un solo indirizzo IP assegnato dall'ISP.  
+Quali sono i gruppi di indirizzi riservati per le LAN interne?|Tre gruppi riservati per le LAN interne sono: 10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16.  
+Come funziona la NAT con i pacchetti?|La NAT trasforma i pacchetti con indirizzi interni in pacchetti da inviare in internet utilizzando l'indirizzo IP assegnato dall'ISP.  
+Quali campi utilizza la NAT per identificare i pacchetti?|La NAT utilizza gli header TCP/UDP nei campi "source port" e "destination port" per identificare il proprietario del pacchetto.  
+Qual è un pregio della NAT?|Un pregio della NAT è che permette di raggruppare sotto un unico indirizzo IP molteplici dispositivi presenti in una rete locale.  
+Qual è uno dei difetti della NAT?|Uno dei difetti della NAT è che viola il modello architetturale dell'IP, poiché molti indirizzi non sono più univoci.  
+Quale problema potrebbe causare la NAT con alcune applicazioni?|La NAT potrebbe causare conflitti con applicazioni che inseriscono l'indirizzo IP all'interno del body, come FTP, che non funzionano correttamente senza precauzioni.  
+In quali ambiti è comunemente utilizzata la NAT?|La NAT è comunemente utilizzata all'interno dei router.
+Cos'è ICMP? | ICMP sta per Internet Control Message Packet ed è utilizzato per inviare messaggi di controllo e avviso tra router nella rete.  
+Qual è il ruolo principale dei pacchetti ICMP? | Monitorano il funzionamento di internet e informano i router su problemi come destinazioni non raggiungibili o scadenze di tempo.  
+Quali sono alcuni tipi di messaggi ICMP? | I messaggi ICMP includono Destinazione non raggiungibile, Tempo scaduto, echo, echo reply, timestamp request e timestamp reply.  
+Cosa indica il messaggio "Destinazione non raggiungibile"? | Indica che un router non riesce a localizzare la destinazione di un pacchetto.  
+Cosa significa il messaggio "Tempo scaduto"? | Viene inviato quando il time to live (TTL) di un pacchetto è arrivato a zero, indicando che il pacchetto non ha potuto raggiungere la destinazione.  
+Qual è la funzione dei messaggi "echo" e "echo reply"? | Servono a verificare se un dispositivo è attivo; "echo" domanda "sei vivo?" e "echo reply" risponde "si, sono vivo".  
+A cosa serve il "timestamp request/reply"? | È utilizzato per chiedere e ricevere informazioni sul tempo, utile anche per testare le performance della connessione.  
+Quali sono i pregi di ICMP? | ICMP è utile per testare le performance della connessione tra i router.  
+Quali sono i difetti di ICMP? | Alcuni pacchetti ICMP, come "source quench", sono obsoleti poiché la gestione della congestione è ora più efficace in altri livelli, come il livello transport.  
+In quale strato del modello di rete viene utilizzato ICMP? | ICMP viene utilizzato nello strato network.
+Cos'è l'OTP?|L'OTP è una tecnica di criptazione che utilizza una chiave di lunghezza casuale, lunga quanto il testo, mai riutilizzata, e considerata matematicamente indistruttibile.
+Qual è il principio fondamentale dell'OTP?|Un messaggio cifrato con l'OTP non può essere decrittato senza conoscere la chiave, anche con potenza computazionale illimitata.
+Quali sono gli svantaggi dell'OTP?|Le chiavi devono essere segrete, non riutilizzabili e devono essere condivise tra mittente e destinatario, il che può complicare la sincronizzazione.
+Perché l'OTP è considerato indistruttibile?|Perché ogni tentativo di decrittazione produce testi plausibili di uguale lunghezza, senza possibilità di identificare l'originale senza conoscere il contesto.
+Qual è un possibile utilizzo dell'OTP?|L'OTP potrebbe essere utilizzato nello spionaggio, benché attualmente non sia pratico per la sua complessità nella gestione delle chiavi.
+In quali ambiti è stato usato l'OTP?|L'OTP è stato utilizzato durante la guerra fredda, ma oggi è poco pratico per la sua scarsa praticabilità.
+Qual è una caratteristica dell'OTP?|L'OTP è matematicamente indecifrabile se utilizzato correttamente.
+Che cos'è un attacco ciphertext-only? | È un tipo di attacco crittanalitico in cui l'attaccante ha accesso solo a messaggi cifrati e cerca di dedurre il messaggio in chiaro o la chiave.  
+Qual è l'obiettivo principale di un attacco ciphertext-only? | L'obiettivo principale è dedurre il messaggio in chiaro corrispondente al ciphertext e, se possibile, ottenere la chiave.  
+Cosa rappresenta un attacco riuscito in un ciphertext-only attack? | Si considera riuscito se il messaggio in chiaro può essere dedotto o se si ottiene informazioni sul messaggio, come la lingua o la struttura.  
+Qual è un esempio moderno di attacco ciphertext-only? | Un esempio moderno è l'attacco brute force, in cui si provano molteplici chiavi per decifrare il testo cifrato.  
+Che tipo di informazioni può cercare di ottenere un attaccante tramite un attacco ciphertext-only? | L'attaccante può cercare di ottenere informazioni sul messaggio in chiaro, come la lingua in cui è scritto o la sua struttura.  
+In cosa consiste l'attacco brute force nel contesto di un ciphertext-only attack? | Consiste nel tentativo di decifrare il testo cifrato provando tutte le possibili chiavi fino a trovare quella corretta.  
+Perché è importante capire gli attacchi ciphertext-only nella crittografia? | È importante perché aiuta a valutare la sicurezza dei sistemi di crittografia e a sviluppare metodi più robusti per proteggere i messaggi.
+Che cos'è l'Electronic Code Block Mode (ECB)?|L'Electronic Code Block Mode è una modalità di cifratura simmetrica che cifra ciascun blocco di dati in modo indipendente.  
+Qual è la principale caratteristica dell'ECB rispetto ad altre modalità di cifratura?|L'ECB cifra ciascun blocco di dati in modo indipendente, senza un feedback tra blocchi.  
+Qual è uno dei principali svantaggi dell'uso dell'ECB?|Il principale svantaggio dell'ECB è che produce lo stesso output per blocchi di dati identici, rendendo il pattern dei dati visibile.  
+In quale anno è stata segnalata l'ultima apparizione del concetto di ECB?|L'ultima apparizione del concetto di ECB è stata segnalata nel 2014.  
+Dove è possibile trovare informazioni dettagliate sull'ECB nel libro di testo citato?|Le informazioni dettagliate sull'ECB possono essere trovate a pagina 745 o pagina 575 nella versione PDF del libro.  
+L'ECB è considerata una modalità sicura per la cifratura? |No, l'ECB non è considerata sicura per la cifratura di dati sensibili a causa della sua vulnerabilità ai pattern.  
+Quali modalità alternative possono essere utilizzate rispetto all'ECB per migliorare la sicurezza?|Modalità come Cipher Block Chaining (CBC) o Galois/Counter Mode (GCM) possono essere utilizzate per migliorare la sicurezza rispetto all'ECB.  
+Qual è la dimensione tipica del blocco di dati utilizzato in ECB?|La dimensione tipica del blocco di dati utilizzato in ECB è di 128 bit, anche se possono essere utilizzati altri blocchi secondo l'algoritmo specifico.  
+In che contesto è consigliato evitare l'uso dell'ECB?|È consigliato evitare l'uso dell'ECB in contesti dove i dati sensibili devono essere cifrati e mantenuti riservati, come nelle comunicazioni sicure.
+Qual è il principale obiettivo dell'IPSec? | Migliorare la sicurezza della trasmissione dei dati su Internet. 
+Che cos'è un SA nel contesto dell'IPSec? | Un SA (Security Association) è una connessione simplex tra due host. 
+Quali sono le due parti principali dell'IPSec? | 1) Nuovi header per la sicurezza dei pacchetti, 2) ISAKMP per la gestione delle chiavi. 
+In che modo l'IPSec può essere utilizzato? | In due modalità: Transport mode e Tunnel mode. 
+Cosa succede nell'Transport mode dell'IPSec? | L'header IPSec è inserito subito dopo l'header IP. 
+Cosa succede nel Tunnel mode dell'IPSec? | L'intero pacchetto IP è incapsulato in un nuovo pacchetto IP con un nuovo header. 
+Qual è il ruolo dell'AH (Authentication Header) nell'IPSec? | Provvede al controllo dell'integrità e sicurezza antireplay, ma non alla segretezza. 
+Qual è un vantaggio dell'IPSec legato alla sua architettura? | Essendo indipendente dagli algoritmi, può adattarsi se un algoritmo diventa obsoleto o se ne vengono aggiunti di nuovi. 
+Qual è uno svantaggio della modalità Tunnel dell'IPSec? | Aumenta la dimensione del pacchetto a causa di un header in più. 
+A quale livello opera l'IPSec? | L'IPSec opera nel network layer.
+Che cos'è HMAC? | HMAC sta per Hashed Message Authentication Code ed è un campo che contiene la firma digitale del payload in un pacchetto di dati.  
+Qual è la funzione principale di HMAC? | Garantire sia l'integrità sia l'autenticità di un messaggio.  
+Dove viene utilizzato HMAC? | Nell'AH (Authentication Header) dell'IPSec.  
+Cos'è una SA (Security Association)? | È una connessione simplex tra due endpoint in cui è presente un identificatore di sicurezza.  
+Quale tipo di crittografia è generalmente utilizzato con HMAC? | La crittografia a chiave simmetrica.  
+Come viene calcolato HMAC? | Calcolando l'hash del pacchetto più la chiave simmetrica.  
+Perché HMAC è preferito rispetto alla crittografia a chiave pubblica in alcune situazioni? | Perché i pacchetti devono essere spediti rapidamente e HMAC è più veloce da calcolare.  
+Qual è un vantaggio dell'HMAC riguardo alle funzioni di hash? | HMAC non è legato a nessuna funzione di hash in particolare, permettendo la sostituzione della funzione in caso non fosse abbastanza sicura.  
+Qual è la differenza tra HMAC e l'uso diretto di SHA-1 e RSA? | HMAC è più veloce da calcolare rispetto a eseguire prima SHA-1 e poi usare il risultato nell'RSA.  
+Perché HMAC non utilizza la crittografia a chiave pubblica? | Perché l'efficienza e la velocità di spedizione dei pacchetti sono prioritari.  
